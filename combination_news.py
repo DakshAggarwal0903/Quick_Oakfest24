@@ -13,7 +13,7 @@ nltk_stopwords = set(stopwords.words('english'))
 sid = SentimentIntensityAnalyzer()
 
 # Set up newsapi client
-api_key = 'fcecf50fcd844427b98a50db33f5ed42'
+api_key = '4108b59008174aa6bae856911471dda4'
 newsapi.NewsApiClient(api_key)
 
 # Set up yfinance to download stock data
@@ -69,9 +69,11 @@ print(df.head(20))
 filename = ('output_'+ticker+'_stock.json')
 
 # Use the to_json function to export the dataframe
-###df.to_json(filename, orient='records')
-###temporarily down for testing
+df.to_json(filename, orient='records')
 
+###
+###
+###ai
 ### getting latest news
 
 import requests
@@ -94,4 +96,26 @@ headline_v2 = get_latest_news(ticker_input=ticker)
 words_v2 = word_tokenize(headline_v2.lower())
 sentiment_score_v2 = sid.polarity_scores(headline_v2)['compound']
 
-print(headline_v2 + str(sentiment_score_v2))
+###print(headline_v2 + str(sentiment_score_v2))
+###dead code
+####
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
+# Split the data into training and testing sets
+X = df['Sentiment Values'].values.reshape(-1, 1)
+y = df['Close'].values.reshape(-1, 1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train the linear regression model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Calculate the R-squared value
+r2 = r2_score(y_test, y_pred)
+print("R-squared value: ", r2)
