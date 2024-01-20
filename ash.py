@@ -8,7 +8,7 @@ from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-# Set up NLTK
+# Set up NLTKt
 nltk_stopwords = set(stopwords.words('english'))
 sid = SentimentIntensityAnalyzer()
 

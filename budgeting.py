@@ -41,7 +41,7 @@ def preprocess_text(text):
     return ' '.join(words)
 
 data['preprocessed_description'] = data['description'].apply(preprocess_text)
-
+print("Preprocessing done.")
 # Labeling
 data['overspending'] = data['amount'] < 0  # Binary label: True if overspending, False otherwise
 
@@ -58,7 +58,7 @@ model = Pipeline([
 
 # Train model
 model.fit(X_train, y_train)
-
+print("Training Done.")
 # Evaluate model
 y_pred = model.predict(X_test)
 print(classification_report(y_test, y_pred))
