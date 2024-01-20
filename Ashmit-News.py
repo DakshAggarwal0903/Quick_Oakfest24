@@ -1,4 +1,3 @@
-#setup
 import openpyxl
 import newsapi
 import yfinance as yf
@@ -9,39 +8,40 @@ from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-# Set up NLTK for NLP
+# Set up NLTK
 nltk_stopwords = set(stopwords.words('english'))
 sid = SentimentIntensityAnalyzer()
 
-#i hate commenting
+# Set up newsapi client
 api_key = 'fcecf50fcd844427b98a50db33f5ed42'
 newsapi.NewsApiClient(api_key)
 
-#yfinance up
+# Set up yfinance to download stock data
 ticker = str(input("give ticker to trace - "))
 stock_data = yf.download(ticker, start='2023-12-20', end=datetime.now(), interval='1h')
 
-#stock price
+# Get the current price of the stock
 last_price = stock_data['Close'].iloc[-1]
 
-#data
+# Set up data structures to store stock and headline data
 headline_data = []
 
-#give me ur headlines
+# Get news headlines for the past year
 news_api = newsapi.NewsApiClient(api_key)
 query = ticker
 articles = news_api.get_everything(q=query, language='en', sort_by='relevancy', from_param='2023-12-20')
 headlines = [article['title'] for article in articles['articles']]
 
-#iteration my goat
+# Iterate through the headlines and find the hourly change in the stock price after each headline
 for headline in headlines:
     for i in range(len(stock_data)-1, -1, -1):
         if (stock_data.index[i].replace(tzinfo=None) > ((datetime.now() - timedelta(hours=24))).replace(tzinfo=None)):
+            # If the headline was published in the last 24 hours, find the hourly change
             last_headline_price = stock_data.iloc[i]['Close']
             hourly_change = (stock_data.iloc[i]['Close'] - last_price) / last_price
             headline_data.append({'Headline': headline, 'Hourly Change': hourly_change})
             last_price = stock_data.iloc[i]['Close']
-            #nlp scoring code uwuww aughagahhaga
+
             words = word_tokenize(headline.lower())
             filtered_words = [word for word in words if word.isalnum() and word not in nltk_stopwords]
             freq_dist = FreqDist(filtered_words)
@@ -49,24 +49,40 @@ for headline in headlines:
             importance_score = len(important_words) / len(filtered_words)
             sentiment_score = sid.polarity_scores(headline)['compound']
 
-            #scores for headlines
-            headline_data[-1]['Importance Score'] = importance_score #doesnt work ever
+            # Add the scores to the headline data
+            headline_data[-1]['Importance Score'] = importance_score
             headline_data[-1]['Sentiment Score'] = sentiment_score
 
-#dataframesetthingy
+# Create dataset
 data = [{'Date': stock_data.index[i], 'Open': stock_data.iloc[i]['Open'], 'High': stock_data.iloc[i]['High'],
-         'Low': stock_data.iloc[i]['Low'], 'Close': stock_data.iloc[i]['Close'], 'Adj Close': stock_data.iloc[i]['Adj Close'],
+         'Low': stock_data.iloc[i]['Low'], 'Close': stock_data.iloc[i]['Close'], 'Adj Close': stock_data.iloc[i]['Adj Close'], 'Diff': (stock_data.iloc[i]['Close']-stock_data.iloc[i]['Open']),
          'Volume': stock_data.iloc[i]['Volume']} for i in range(len(stock_data))]
 df = pd.DataFrame(data)
 
-#become one
+# Add the headline data to the dataframe
 headline_df = pd.DataFrame(headline_data)
 df = pd.concat([df, headline_df], axis=1)
 
 print(df.head(20))
 
-#foolname
+# Set the filename
 filename = ('output_'+ticker+'_stock.json')
 
-#excport
+# Use the to_json function to export the dataframe
 df.to_json(filename, orient='records')
+
+###
+###
+###ai
+
+import matplotlib.pyplot as plt
+
+# scatter plot
+df.plot(kind='line',
+        x='Sentiment Score',
+        y='Diff',
+        color='red')
+plt.title('SvC')
+plt.grid(True)
+plt.show()
+
