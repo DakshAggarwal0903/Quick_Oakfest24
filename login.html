@@ -7,10 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login page</title>
   <link rel = 'stylesheet' href = 'login.css'>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
-<body>
-    <form action = 'mainpage.html' id = 'form'> 
+<body>         
+    <script type="text/javascript">
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "sender@email_address.com",
+                Password: "Enter your password",
+                To: 'pagersarecool27@gmail.com',
+                From: "ajeerjpg@gmail.com",
+                Subject: "Sending Email using javascript",
+                Body: "Well that was easy!!",
+            })
+                .then(function (message) {
+                    alert("mail sent successfully")
+                });
+        }
+    </script>
+    <form  id = 'form' method = 'post'> 
         <div class="login-container">
             <div class="login-header">
               <h2>Log in</h2>
@@ -20,19 +37,21 @@
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
               </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+              </div>
               <div class="form-group">  
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
               </div>
               <div class="form-group">
-                <button onclick=redirectToMainPage()>Login</button>
+                <button onclick = sendEmail()>Log in</button>
               </div>
               <div class="wave"></div>
             </div>
           </div>
     </form>
-  
-  <!-- Script for redirection after login -->
   <script src = 'login.js'></script>
 </body>
 
