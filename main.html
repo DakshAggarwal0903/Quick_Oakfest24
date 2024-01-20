@@ -16,36 +16,6 @@
             height: 100vh;
         }
 
-        #chat-container {
-            max-width: 600px;
-            border: 1px solid #ccc;
-            border-radius: 15px; /* Increased border-radius for smoother edges */
-            overflow: hidden;
-            background-color: #CBC3E3;
-        }
-
-        #chat-box {
-            height: 300px;
-            width: 100px;
-            overflow-y: hidden; /* Hide the scroll bar */
-            padding: 10px;
-        }
-
-        #input-container {
-            display: flex;
-            padding: 10px;
-            background-color: #ffffff;
-            border-radius: 5px;
-            margin: 20px;
-            width: 400px;
-        }
-
-        #user-input {
-            flex: 1;
-            padding: 5px;
-            margin-right: 10px;
-        }
-
         button {
             background-color: #4CAF50;
             color: white;
@@ -54,23 +24,11 @@
             border-radius: 5px;
             cursor: pointer;
         }
-
-        .user, .bot {
-            border-radius: 5px;
-            padding: 5px;
-            margin-bottom: 5px;
-        }
     </style>
     <title>ChatGPT UI</title>
 </head>
 <body>
-    <div id="chat-container">
-        <div id="chat-box"></div>
-        <div id="input-container">
-            <input type="text" id="user-input" placeholder="Type your message...">
-            <button onclick="sendMessage()">Send</button>
-        </div>
-    </div>
+    
     <script>
         // Your JavaScript code remains unchanged
     </script>
