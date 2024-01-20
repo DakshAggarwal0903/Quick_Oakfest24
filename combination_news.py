@@ -128,9 +128,7 @@ y_pred = model.predict(X_test)
 r2 = r2_score(y_test, y_pred)
 print("R-squared value: {:.2f}".format(r2))
 
-true_pred = model.predict(sentiment_score_v2)
-print(true_pred)
+two_d_array = np.array([[sentiment_score_v2]])
 
-# Calculate the R-squared value
-r2 = r2_score(y_test, y_pred)
-print("R-squared value: ", r2)
+true_pred = model.predict(two_d_array)
+print(true_pred)
