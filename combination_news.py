@@ -32,6 +32,7 @@ headline_data = []
 
 # Get news headlines also newsapi cringe as hell man why only december 20
 #give me ur headlines
+dupes=0
 news_api = newsapi.NewsApiClient(api_key)
 query = ticker
 articles = news_api.get_everything(q=query, language='en', sort_by='relevancy', from_param='2024-01-10')
@@ -58,12 +59,14 @@ for headline in headlines:
                 headline_data[-1]['Sentiment Score'] = sentiment_score
                 unique_headlines.add(headline)
             else:
-                print("hi")
+                dupes+=1
+                
+print(dupes)
 
 #dataframesetthingy
 data = [{'Date': stock_data.index[i], 'Open': stock_data.iloc[i]['Open'], 'High': stock_data.iloc[i]['High'],
          'Low': stock_data.iloc[i]['Low'], 'Close': stock_data.iloc[i]['Close'], 'Adj Close': stock_data.iloc[i]['Adj Close'],
-         'Volume': stock_data.iloc[i]['Volume']} for i in range(len(stock_data))]
+         'Volume': stock_data.iloc[i]['Volume'], 'Diff': (stock_data.iloc[i]['Close']-stock_data.iloc[i]['Open'])} for i in range(len(stock_data))]
 df = pd.DataFrame(data)
 
 
@@ -72,7 +75,9 @@ df = pd.DataFrame(data)
 headline_df = pd.DataFrame(headline_data)
 df = pd.concat([df, headline_df], axis=1)
 
-print(df.head(20))
+df= df.dropna()
+
+print(df.head(100))
 
 #foolname
 filename = ('output_'+ticker+'_stock.json')
@@ -93,14 +98,38 @@ def get_latest_news(ticker_input):
     # Get the latest news articles related to the ticker
     articles_v2 = news_api.get_everything(q=query_v2, language=language_v2, sort_by=sort_by_v2, page_size=page_size_v2)
 
-    # Extract the first article and return it as a Pandas Series
-    article_v2 = articles_v2['articles'][0]
+    # Extract the first three article and return it as a Pandas Series
+    article_v2 = articles_v2['articles'][2]
     return article_v2['title']
 
 headline_v2 = get_latest_news(ticker_input=ticker)
 
 words_v2 = word_tokenize(headline_v2.lower())
 sentiment_score_v2 = sid.polarity_scores(headline_v2)['compound']
+
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
+
+X = df['Sentiment Score'].values.reshape(-1, 1)
+y = df['Diff'].values.reshape(-1, 1)
+
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+model = LinearRegression()
+
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+
+r2 = r2_score(y_test, y_pred)
+print("R-squared value: {:.2f}".format(r2))
+
+true_pred = model.predict(sentiment_score_v2)
+print(true_pred)
 
 # Calculate the R-squared value
 r2 = r2_score(y_test, y_pred)
