@@ -5,162 +5,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fancy Login Page</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background: linear-gradient(to right, #000, #800080);
-      margin: 0;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-
-    .login-container {
-      background: linear-gradient(to right, #000, #800080);
-      border-radius: 8px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-      overflow: hidden;
-      width: 350px;
-      max-width: 100%;
-      animation: floatAnimation 3s infinite alternate;
-    }
-
-    .login-header {
-      background: linear-gradient(to right, #000, #800080);
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .login-form {
-      padding: 20px;
-      position: relative;
-      animation: fadeInAnimation 2s ease-in-out;
-    }
-
-    .form-group {
-      margin-bottom: 20px;
-    }
-
-    .form-group label {
-      display: block;
-      font-size: 16px;
-      margin-bottom: 10px;
-      color: #fff;
-    }
-
-    .form-group input {
-      width: 100%;
-      padding: 12px;
-      box-sizing: border-box;
-      border: none;
-      border-bottom: 2px solid #000;
-      background-color: transparent;
-      outline: none;
-      color: #fff;
-      font-size: 16px;
-      transition: border-bottom-color 0.3s ease, color 0.3s ease;
-    }
-
-    .form-group input:focus {
-      border-bottom-color: #800080;
-      color: #fff;
-    }
-
-    .form-group button {
-      background: linear-gradient(to right, #000, #800080);
-      color: #fff;
-      padding: 12px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 16px;
-      transition: background 0.3s ease, transform 0.3s ease;
-      animation: bounceAnimation 1s infinite alternate;
-      position: relative;
-      z-index: 1;
-    }
-
-    .form-group button:hover {
-      background: linear-gradient(to right, #000, #800080);
-    }
-
-    .wave {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100px;
-      background: url('https://cdn.jsdelivr.net/gh/degraw/heroicons/wave.svg') repeat-x;
-      animation: wave-animation 10s infinite linear;
-    }
-
-    @keyframes wave-animation {
-      0% {
-        background-position-x: 0;
-      }
-      100% {
-        background-position-x: 100%;
-      }
-    }
-
-    @keyframes floatAnimation {
-      0% {
-        transform: translateY(0);
-      }
-      100% {
-        transform: translateY(-20px);
-      }
-    }
-
-    @keyframes bounceAnimation {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-10px);
-      }
-    }
-
-    @keyframes fadeInAnimation {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-  </style>
+  <title>Login page</title>
+  <link rel = 'stylesheet' href = 'login.css'>
 </head>
 
 <body>
-  <div class="login-container">
-    <div class="login-header">
-      <h2>Login</h2>
-    </div>
-    <div class="login-form">
-      <div class="form-group">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-      </div>
-      <div class="form-group">  
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-      </div>
-      <div class="form-group">
-        <button onclick="redirectToMainPage()">Login</button>
-      </div>
-      <div class="wave"></div>
-    </div>
-  </div>
+    <form action = 'mainpage.html' id = 'form'> 
+        <div class="login-container">
+            <div class="login-header">
+              <h2>Log in</h2>
+            </div>
+            <div class="login-form">
+              <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+              </div>
+              <div class="form-group">  
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+              </div>
+              <div class="form-group">
+                <button onclick=redirectToMainPage()>Login</button>
+              </div>
+              <div class="wave"></div>
+            </div>
+          </div>
+    </form>
   
   <!-- Script for redirection after login -->
-  <script src = 'password.js'></script>
+  <script src = 'login.js'></script>
 </body>
 
 </html>
