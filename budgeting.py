@@ -21,9 +21,6 @@ df = pd.DataFrame(data)
 X = df[['Month', 'Income', 'Groceries', 'Utilities', 'Rent']]
 y = df['Savings']
 
-
-
-
 model = LinearRegression()
 
 

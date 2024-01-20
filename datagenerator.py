@@ -3,51 +3,87 @@ from datetime import datetime, timedelta
 import json
 import os
 
-def generate_transaction(transaction_count, current_salary, current_bonus):
-    transaction_time = datetime(2024, 1, 1) + timedelta(minutes=random.randint(1, 365*24*60))
-    
-    # Increase salary and bonus amounts
-    salary_increase = 20000.00
-    bonus_increase = 1500.00
-    
-    if transaction_count % 100 == 0:
-        transaction_details = "Bonus"
-        current_bonus += bonus_increase
-        transaction_amount = current_bonus
-    elif transaction_count % 50 == 0:
-        transaction_details = "Salary deposit"
-        current_salary += salary_increase
-        transaction_amount = current_salary
-    else:
-        # Realistic amounts for various expenses
-        transaction_details = random.choice(["Groceries", "Gym membership", "Internet Bill", "Rent payment", "Clothing", "Monthly insurance payment", "Utilities", "Dining out", f"Purchase of Product {random.randint(1, 10)}"])
-        transaction_amount = round(random.uniform(-500, -20), 2)
-    
-    transaction_id = random.randint(1000, 9999)
+def generate_transaction(transaction_id, transaction_time, amount, category, description, account_balance_pre, savings_account_pre):
     return {
-        "bank_balance_pre": None,
-        "transaction_time": transaction_time.strftime("%Y-%m-%d %H:%M:%S"),
-        "transaction_amount": transaction_amount,
-        "transaction_details": transaction_details,
-        "transaction_id": transaction_id
+        "transaction_id": transaction_id,
+        "transaction_time": transaction_time,
+        "amount": amount,
+        "category": category,
+        "description": description,
+        "account_balance_pre": account_balance_pre,
+        "savings_account_pre": savings_account_pre
+    }
+
+def generate_savings_transaction(transaction_id, transaction_time, amount, description, savings_account_balance_pre):
+    return {
+        "transaction_id": transaction_id,
+        "transaction_time": transaction_time,
+        "amount": amount,
+        "description": description,
+        "savings_account_balance_pre": savings_account_balance_pre
     }
 
 def generate_test_data():
     transactions = []
-    bank_balance = 42000.00  # Initial bank balance
-    current_salary = 6228.00
-    current_bonus = 1500.00
+    savings_transactions = []
+    account_balance = 42000.00  # Initial account balance
+    savings_account_balance = 0.00  # Initial savings account balance
+    monthly_income = 6228.00
     
-    for count in range(1, 501):  # Adjusted to 500 transactions
-        transaction = generate_transaction(count, current_salary, current_bonus)
-        transaction["bank_balance_pre"] = round(bank_balance, 2)
-        bank_balance += transaction["transaction_amount"]
-        transactions.append(transaction)
+    for count in range(1, 501):  # Generating 500 transactions
+        transaction_time = datetime(2024, 1, 1) + timedelta(minutes=random.randint(1, 365*24*60))
+        
+        if count % 30 == 0:
+            # Salary and bonus every 30 transactions
+            transaction_amount = round(monthly_income + 500.00, 2)  # Bonus added
+            category = "Salary and Bonus"
+            description = "Salary and Bonus deposit"
+            account_balance += transaction_amount
+        else:
+            # Other transactions represent expenses
+            transaction_amount = round(random.uniform(-500, -20), 2)
+            category = random.choice(["Rent", "Utilities", "Groceries", "Dining out", "Entertainment", "Clothing", "Others"])
+            description = f"{category} expense"
+            account_balance += transaction_amount
+        
+        transactions.append(
+            generate_transaction(
+                transaction_id=count,
+                transaction_time=transaction_time.strftime("%Y-%m-%d %H:%M:%S"),
+                amount=transaction_amount,
+                category=category,
+                description=description,
+                account_balance_pre=round(account_balance - transaction_amount, 2),
+                savings_account_pre=round(savings_account_balance, 2)
+            )
+        )
+        
+        if count % 30 == 0:
+            # Savings deposit every 30 transactions
+            savings_increment = monthly_income * 0.25
+            savings_account_balance += savings_increment
+            savings_transactions.append(
+                generate_savings_transaction(
+                    transaction_id=5000 + count,
+                    transaction_time=transaction_time.strftime("%Y-%m-%d %H:%M:%S"),
+                    amount=round(random.uniform(0.5, 2) * savings_increment, 2),
+                    description="Savings deposit",
+                    savings_account_balance_pre=round(savings_account_balance - savings_increment, 2)
+                )
+            )
     
-    return transactions
+    return {
+        "user": {
+            "name": "John Doe",
+            "monthly_income": monthly_income,
+            "savings_account_balance": round(savings_account_balance, 2)
+        },
+        "transactions": transactions,
+        "savings_transactions": savings_transactions
+    }
 
 def save_json_file(data, file_path):
-    filename = 'test_data.json'
+    filename = 'training_data.json'
     full_path = os.path.join(file_path, filename)
 
     # Create the directory if it doesn't exist
@@ -57,12 +93,8 @@ def save_json_file(data, file_path):
         json.dump(data, file, indent=2)
 
 def main():
-    person_data = {
-        "name": "John Doe",
-        "transactions": generate_test_data()
-    }
-
-    save_json_file(person_data, r'C:\Users\daksh\OneDrive\Desktop\Folders\Hackathons\Codefest\24')
+    training_data = generate_test_data()
+    save_json_file(training_data, r"C:\Users\daksh\OneDrive\Desktop\Folders\Hackathons\Codefest'24'")
 
 if __name__ == "__main__":
     main()
