@@ -5,5 +5,5 @@ form.addEventListener('submit', function(e){
     e.preventDefault();//prevents normal processing of form
     const userNameValue = username.value;                
     localStorage.setItem('username', userNameValue);   
-    window.location.href = 'dashboard.html';
+    window.location.href = 'mainpage.html';
 })
