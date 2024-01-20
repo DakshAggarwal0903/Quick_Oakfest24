@@ -1,0 +1,3505 @@
+{
+  "name": "John Doe",
+  "transactions": [
+    {
+      "bank_balance_pre": 42000.0,
+      "transaction_time": "2024-09-09 04:10:00",
+      "transaction_amount": -344.33,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 2210
+    },
+    {
+      "bank_balance_pre": 41655.67,
+      "transaction_time": "2024-02-22 11:06:00",
+      "transaction_amount": -318.01,
+      "transaction_details": "Clothing",
+      "transaction_id": 6505
+    },
+    {
+      "bank_balance_pre": 41337.66,
+      "transaction_time": "2024-10-27 07:26:00",
+      "transaction_amount": -69.73,
+      "transaction_details": "Gym membership",
+      "transaction_id": 5381
+    },
+    {
+      "bank_balance_pre": 41267.93,
+      "transaction_time": "2024-09-24 06:02:00",
+      "transaction_amount": -107.49,
+      "transaction_details": "Rent payment",
+      "transaction_id": 2124
+    },
+    {
+      "bank_balance_pre": 41160.44,
+      "transaction_time": "2024-02-09 16:48:00",
+      "transaction_amount": -284.08,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 5575
+    },
+    {
+      "bank_balance_pre": 40876.36,
+      "transaction_time": "2024-09-17 16:20:00",
+      "transaction_amount": -209.11,
+      "transaction_details": "Clothing",
+      "transaction_id": 9125
+    },
+    {
+      "bank_balance_pre": 40667.25,
+      "transaction_time": "2024-11-04 03:53:00",
+      "transaction_amount": -446.4,
+      "transaction_details": "Utilities",
+      "transaction_id": 7829
+    },
+    {
+      "bank_balance_pre": 40220.85,
+      "transaction_time": "2024-10-25 15:49:00",
+      "transaction_amount": -123.4,
+      "transaction_details": "Groceries",
+      "transaction_id": 1080
+    },
+    {
+      "bank_balance_pre": 40097.45,
+      "transaction_time": "2024-09-22 02:56:00",
+      "transaction_amount": -27.17,
+      "transaction_details": "Purchase of Product 8",
+      "transaction_id": 4740
+    },
+    {
+      "bank_balance_pre": 40070.28,
+      "transaction_time": "2024-12-21 07:30:00",
+      "transaction_amount": -491.82,
+      "transaction_details": "Gym membership",
+      "transaction_id": 8841
+    },
+    {
+      "bank_balance_pre": 39578.46,
+      "transaction_time": "2024-01-10 14:16:00",
+      "transaction_amount": -45.28,
+      "transaction_details": "Gym membership",
+      "transaction_id": 8125
+    },
+    {
+      "bank_balance_pre": 39533.18,
+      "transaction_time": "2024-09-25 12:42:00",
+      "transaction_amount": -207.35,
+      "transaction_details": "Dining out",
+      "transaction_id": 2073
+    },
+    {
+      "bank_balance_pre": 39325.83,
+      "transaction_time": "2024-09-09 04:22:00",
+      "transaction_amount": -58.66,
+      "transaction_details": "Purchase of Product 7",
+      "transaction_id": 4354
+    },
+    {
+      "bank_balance_pre": 39267.17,
+      "transaction_time": "2024-10-02 20:17:00",
+      "transaction_amount": -259.04,
+      "transaction_details": "Groceries",
+      "transaction_id": 2401
+    },
+    {
+      "bank_balance_pre": 39008.13,
+      "transaction_time": "2024-06-05 18:28:00",
+      "transaction_amount": -315.5,
+      "transaction_details": "Clothing",
+      "transaction_id": 3716
+    },
+    {
+      "bank_balance_pre": 38692.63,
+      "transaction_time": "2024-06-20 15:39:00",
+      "transaction_amount": -279.12,
+      "transaction_details": "Dining out",
+      "transaction_id": 4232
+    },
+    {
+      "bank_balance_pre": 38413.51,
+      "transaction_time": "2024-10-22 09:02:00",
+      "transaction_amount": -80.71,
+      "transaction_details": "Groceries",
+      "transaction_id": 7764
+    },
+    {
+      "bank_balance_pre": 38332.8,
+      "transaction_time": "2024-02-08 22:42:00",
+      "transaction_amount": -453.39,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 9523
+    },
+    {
+      "bank_balance_pre": 37879.41,
+      "transaction_time": "2024-02-19 18:45:00",
+      "transaction_amount": -338.28,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 6840
+    },
+    {
+      "bank_balance_pre": 37541.13,
+      "transaction_time": "2024-07-14 21:43:00",
+      "transaction_amount": -364.5,
+      "transaction_details": "Dining out",
+      "transaction_id": 6878
+    },
+    {
+      "bank_balance_pre": 37176.63,
+      "transaction_time": "2024-02-15 01:17:00",
+      "transaction_amount": -462.52,
+      "transaction_details": "Groceries",
+      "transaction_id": 6929
+    },
+    {
+      "bank_balance_pre": 36714.11,
+      "transaction_time": "2024-01-04 18:38:00",
+      "transaction_amount": -185.65,
+      "transaction_details": "Rent payment",
+      "transaction_id": 5625
+    },
+    {
+      "bank_balance_pre": 36528.46,
+      "transaction_time": "2024-12-10 13:08:00",
+      "transaction_amount": -404.81,
+      "transaction_details": "Rent payment",
+      "transaction_id": 6766
+    },
+    {
+      "bank_balance_pre": 36123.65,
+      "transaction_time": "2024-06-22 01:18:00",
+      "transaction_amount": -376.32,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 9589
+    },
+    {
+      "bank_balance_pre": 35747.33,
+      "transaction_time": "2024-11-07 06:24:00",
+      "transaction_amount": -66.18,
+      "transaction_details": "Dining out",
+      "transaction_id": 7219
+    },
+    {
+      "bank_balance_pre": 35681.15,
+      "transaction_time": "2024-07-13 04:21:00",
+      "transaction_amount": -84.56,
+      "transaction_details": "Rent payment",
+      "transaction_id": 8315
+    },
+    {
+      "bank_balance_pre": 35596.59,
+      "transaction_time": "2024-04-18 19:05:00",
+      "transaction_amount": -21.16,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 7678
+    },
+    {
+      "bank_balance_pre": 35575.43,
+      "transaction_time": "2024-09-01 00:09:00",
+      "transaction_amount": -342.35,
+      "transaction_details": "Groceries",
+      "transaction_id": 1420
+    },
+    {
+      "bank_balance_pre": 35233.08,
+      "transaction_time": "2024-10-14 02:33:00",
+      "transaction_amount": -51.9,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 1608
+    },
+    {
+      "bank_balance_pre": 35181.18,
+      "transaction_time": "2024-10-13 03:52:00",
+      "transaction_amount": -411.18,
+      "transaction_details": "Dining out",
+      "transaction_id": 4433
+    },
+    {
+      "bank_balance_pre": 34770.0,
+      "transaction_time": "2024-09-29 22:12:00",
+      "transaction_amount": -295.65,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 3323
+    },
+    {
+      "bank_balance_pre": 34474.35,
+      "transaction_time": "2024-05-23 01:21:00",
+      "transaction_amount": -107.76,
+      "transaction_details": "Utilities",
+      "transaction_id": 4027
+    },
+    {
+      "bank_balance_pre": 34366.59,
+      "transaction_time": "2024-08-12 12:54:00",
+      "transaction_amount": -451.07,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 5398
+    },
+    {
+      "bank_balance_pre": 33915.52,
+      "transaction_time": "2024-04-28 18:24:00",
+      "transaction_amount": -238.33,
+      "transaction_details": "Groceries",
+      "transaction_id": 3338
+    },
+    {
+      "bank_balance_pre": 33677.19,
+      "transaction_time": "2024-07-11 09:57:00",
+      "transaction_amount": -250.74,
+      "transaction_details": "Purchase of Product 10",
+      "transaction_id": 9666
+    },
+    {
+      "bank_balance_pre": 33426.45,
+      "transaction_time": "2024-03-25 05:49:00",
+      "transaction_amount": -450.29,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 7804
+    },
+    {
+      "bank_balance_pre": 32976.16,
+      "transaction_time": "2024-07-14 03:56:00",
+      "transaction_amount": -382.78,
+      "transaction_details": "Utilities",
+      "transaction_id": 5638
+    },
+    {
+      "bank_balance_pre": 32593.38,
+      "transaction_time": "2024-03-16 19:10:00",
+      "transaction_amount": -471.81,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 1477
+    },
+    {
+      "bank_balance_pre": 32121.57,
+      "transaction_time": "2024-04-27 19:19:00",
+      "transaction_amount": -242.74,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9819
+    },
+    {
+      "bank_balance_pre": 31878.83,
+      "transaction_time": "2024-02-21 20:43:00",
+      "transaction_amount": -407.27,
+      "transaction_details": "Utilities",
+      "transaction_id": 3076
+    },
+    {
+      "bank_balance_pre": 31471.56,
+      "transaction_time": "2024-09-20 18:07:00",
+      "transaction_amount": -51.42,
+      "transaction_details": "Dining out",
+      "transaction_id": 8093
+    },
+    {
+      "bank_balance_pre": 31420.14,
+      "transaction_time": "2024-03-02 01:47:00",
+      "transaction_amount": -73.76,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 4249
+    },
+    {
+      "bank_balance_pre": 31346.38,
+      "transaction_time": "2024-04-08 03:34:00",
+      "transaction_amount": -146.88,
+      "transaction_details": "Purchase of Product 1",
+      "transaction_id": 2447
+    },
+    {
+      "bank_balance_pre": 31199.5,
+      "transaction_time": "2024-04-15 04:46:00",
+      "transaction_amount": -378.31,
+      "transaction_details": "Utilities",
+      "transaction_id": 1885
+    },
+    {
+      "bank_balance_pre": 30821.19,
+      "transaction_time": "2024-07-06 00:19:00",
+      "transaction_amount": -329.65,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 6474
+    },
+    {
+      "bank_balance_pre": 30491.54,
+      "transaction_time": "2024-04-29 04:17:00",
+      "transaction_amount": -31.82,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 3280
+    },
+    {
+      "bank_balance_pre": 30459.72,
+      "transaction_time": "2024-10-25 14:40:00",
+      "transaction_amount": -229.28,
+      "transaction_details": "Groceries",
+      "transaction_id": 1337
+    },
+    {
+      "bank_balance_pre": 30230.44,
+      "transaction_time": "2024-09-16 08:23:00",
+      "transaction_amount": -211.1,
+      "transaction_details": "Utilities",
+      "transaction_id": 1582
+    },
+    {
+      "bank_balance_pre": 30019.34,
+      "transaction_time": "2024-05-13 23:07:00",
+      "transaction_amount": -495.29,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 8532
+    },
+    {
+      "bank_balance_pre": 29524.05,
+      "transaction_time": "2024-10-12 08:21:00",
+      "transaction_amount": 26228.0,
+      "transaction_details": "Salary deposit",
+      "transaction_id": 1151
+    },
+    {
+      "bank_balance_pre": 55752.05,
+      "transaction_time": "2024-09-03 19:36:00",
+      "transaction_amount": -159.16,
+      "transaction_details": "Groceries",
+      "transaction_id": 4197
+    },
+    {
+      "bank_balance_pre": 55592.89,
+      "transaction_time": "2024-11-15 01:21:00",
+      "transaction_amount": -253.98,
+      "transaction_details": "Rent payment",
+      "transaction_id": 7449
+    },
+    {
+      "bank_balance_pre": 55338.91,
+      "transaction_time": "2024-03-30 10:08:00",
+      "transaction_amount": -414.24,
+      "transaction_details": "Utilities",
+      "transaction_id": 1624
+    },
+    {
+      "bank_balance_pre": 54924.67,
+      "transaction_time": "2024-06-28 01:09:00",
+      "transaction_amount": -177.2,
+      "transaction_details": "Clothing",
+      "transaction_id": 6078
+    },
+    {
+      "bank_balance_pre": 54747.47,
+      "transaction_time": "2024-11-01 05:07:00",
+      "transaction_amount": -112.87,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 5609
+    },
+    {
+      "bank_balance_pre": 54634.6,
+      "transaction_time": "2024-02-23 14:51:00",
+      "transaction_amount": -364.97,
+      "transaction_details": "Rent payment",
+      "transaction_id": 8397
+    },
+    {
+      "bank_balance_pre": 54269.63,
+      "transaction_time": "2024-04-16 04:32:00",
+      "transaction_amount": -210.47,
+      "transaction_details": "Dining out",
+      "transaction_id": 2956
+    },
+    {
+      "bank_balance_pre": 54059.16,
+      "transaction_time": "2024-12-04 01:26:00",
+      "transaction_amount": -101.02,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 2353
+    },
+    {
+      "bank_balance_pre": 53958.14,
+      "transaction_time": "2024-05-22 10:50:00",
+      "transaction_amount": -315.91,
+      "transaction_details": "Dining out",
+      "transaction_id": 3010
+    },
+    {
+      "bank_balance_pre": 53642.23,
+      "transaction_time": "2024-10-08 21:51:00",
+      "transaction_amount": -382.49,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9275
+    },
+    {
+      "bank_balance_pre": 53259.74,
+      "transaction_time": "2024-09-29 14:11:00",
+      "transaction_amount": -156.17,
+      "transaction_details": "Purchase of Product 6",
+      "transaction_id": 1911
+    },
+    {
+      "bank_balance_pre": 53103.57,
+      "transaction_time": "2024-02-03 02:05:00",
+      "transaction_amount": -154.21,
+      "transaction_details": "Purchase of Product 7",
+      "transaction_id": 2502
+    },
+    {
+      "bank_balance_pre": 52949.36,
+      "transaction_time": "2024-08-11 12:25:00",
+      "transaction_amount": -432.46,
+      "transaction_details": "Dining out",
+      "transaction_id": 4780
+    },
+    {
+      "bank_balance_pre": 52516.9,
+      "transaction_time": "2024-08-29 10:44:00",
+      "transaction_amount": -397.87,
+      "transaction_details": "Clothing",
+      "transaction_id": 3578
+    },
+    {
+      "bank_balance_pre": 52119.03,
+      "transaction_time": "2024-03-14 09:26:00",
+      "transaction_amount": -447.6,
+      "transaction_details": "Dining out",
+      "transaction_id": 2229
+    },
+    {
+      "bank_balance_pre": 51671.43,
+      "transaction_time": "2024-11-22 05:26:00",
+      "transaction_amount": -317.71,
+      "transaction_details": "Groceries",
+      "transaction_id": 3750
+    },
+    {
+      "bank_balance_pre": 51353.72,
+      "transaction_time": "2024-08-20 14:20:00",
+      "transaction_amount": -260.38,
+      "transaction_details": "Groceries",
+      "transaction_id": 4877
+    },
+    {
+      "bank_balance_pre": 51093.34,
+      "transaction_time": "2024-08-29 18:18:00",
+      "transaction_amount": -241.53,
+      "transaction_details": "Gym membership",
+      "transaction_id": 4982
+    },
+    {
+      "bank_balance_pre": 50851.81,
+      "transaction_time": "2024-12-08 21:00:00",
+      "transaction_amount": -478.71,
+      "transaction_details": "Purchase of Product 7",
+      "transaction_id": 5353
+    },
+    {
+      "bank_balance_pre": 50373.1,
+      "transaction_time": "2024-07-26 03:53:00",
+      "transaction_amount": -229.88,
+      "transaction_details": "Clothing",
+      "transaction_id": 2799
+    },
+    {
+      "bank_balance_pre": 50143.22,
+      "transaction_time": "2024-09-25 09:45:00",
+      "transaction_amount": -305.66,
+      "transaction_details": "Gym membership",
+      "transaction_id": 9277
+    },
+    {
+      "bank_balance_pre": 49837.56,
+      "transaction_time": "2024-11-11 12:45:00",
+      "transaction_amount": -220.65,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 4352
+    },
+    {
+      "bank_balance_pre": 49616.91,
+      "transaction_time": "2024-03-05 12:24:00",
+      "transaction_amount": -126.13,
+      "transaction_details": "Dining out",
+      "transaction_id": 6131
+    },
+    {
+      "bank_balance_pre": 49490.78,
+      "transaction_time": "2024-11-06 04:39:00",
+      "transaction_amount": -386.97,
+      "transaction_details": "Rent payment",
+      "transaction_id": 6869
+    },
+    {
+      "bank_balance_pre": 49103.81,
+      "transaction_time": "2024-10-13 23:46:00",
+      "transaction_amount": -209.82,
+      "transaction_details": "Dining out",
+      "transaction_id": 4466
+    },
+    {
+      "bank_balance_pre": 48893.99,
+      "transaction_time": "2024-10-25 11:48:00",
+      "transaction_amount": -191.97,
+      "transaction_details": "Dining out",
+      "transaction_id": 6090
+    },
+    {
+      "bank_balance_pre": 48702.02,
+      "transaction_time": "2024-04-12 08:21:00",
+      "transaction_amount": -27.68,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 9079
+    },
+    {
+      "bank_balance_pre": 48674.34,
+      "transaction_time": "2024-09-04 22:29:00",
+      "transaction_amount": -103.22,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 4036
+    },
+    {
+      "bank_balance_pre": 48571.12,
+      "transaction_time": "2024-08-07 17:33:00",
+      "transaction_amount": -182.38,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 9431
+    },
+    {
+      "bank_balance_pre": 48388.74,
+      "transaction_time": "2024-03-14 13:41:00",
+      "transaction_amount": -29.78,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4105
+    },
+    {
+      "bank_balance_pre": 48358.96,
+      "transaction_time": "2024-05-16 00:20:00",
+      "transaction_amount": -71.46,
+      "transaction_details": "Purchase of Product 6",
+      "transaction_id": 9919
+    },
+    {
+      "bank_balance_pre": 48287.5,
+      "transaction_time": "2024-05-16 20:02:00",
+      "transaction_amount": -158.27,
+      "transaction_details": "Rent payment",
+      "transaction_id": 1379
+    },
+    {
+      "bank_balance_pre": 48129.23,
+      "transaction_time": "2024-03-30 16:17:00",
+      "transaction_amount": -90.44,
+      "transaction_details": "Rent payment",
+      "transaction_id": 2572
+    },
+    {
+      "bank_balance_pre": 48038.79,
+      "transaction_time": "2024-03-03 11:23:00",
+      "transaction_amount": -377.53,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 5742
+    },
+    {
+      "bank_balance_pre": 47661.26,
+      "transaction_time": "2024-03-04 10:55:00",
+      "transaction_amount": -262.88,
+      "transaction_details": "Dining out",
+      "transaction_id": 7622
+    },
+    {
+      "bank_balance_pre": 47398.38,
+      "transaction_time": "2024-06-02 11:20:00",
+      "transaction_amount": -188.97,
+      "transaction_details": "Purchase of Product 9",
+      "transaction_id": 1480
+    },
+    {
+      "bank_balance_pre": 47209.41,
+      "transaction_time": "2024-01-06 21:30:00",
+      "transaction_amount": -147.11,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 9983
+    },
+    {
+      "bank_balance_pre": 47062.3,
+      "transaction_time": "2024-05-01 15:26:00",
+      "transaction_amount": -210.58,
+      "transaction_details": "Rent payment",
+      "transaction_id": 7115
+    },
+    {
+      "bank_balance_pre": 46851.72,
+      "transaction_time": "2024-05-14 09:39:00",
+      "transaction_amount": -338.1,
+      "transaction_details": "Groceries",
+      "transaction_id": 2845
+    },
+    {
+      "bank_balance_pre": 46513.62,
+      "transaction_time": "2024-05-31 21:02:00",
+      "transaction_amount": -470.84,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3992
+    },
+    {
+      "bank_balance_pre": 46042.78,
+      "transaction_time": "2024-04-23 01:46:00",
+      "transaction_amount": -125.42,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 2397
+    },
+    {
+      "bank_balance_pre": 45917.36,
+      "transaction_time": "2024-07-26 00:07:00",
+      "transaction_amount": -80.03,
+      "transaction_details": "Purchase of Product 8",
+      "transaction_id": 6371
+    },
+    {
+      "bank_balance_pre": 45837.33,
+      "transaction_time": "2024-03-06 10:28:00",
+      "transaction_amount": -409.21,
+      "transaction_details": "Groceries",
+      "transaction_id": 2009
+    },
+    {
+      "bank_balance_pre": 45428.12,
+      "transaction_time": "2024-06-11 21:17:00",
+      "transaction_amount": -330.09,
+      "transaction_details": "Groceries",
+      "transaction_id": 8826
+    },
+    {
+      "bank_balance_pre": 45098.03,
+      "transaction_time": "2024-07-17 09:30:00",
+      "transaction_amount": -277.83,
+      "transaction_details": "Rent payment",
+      "transaction_id": 6348
+    },
+    {
+      "bank_balance_pre": 44820.2,
+      "transaction_time": "2024-11-03 06:23:00",
+      "transaction_amount": -70.28,
+      "transaction_details": "Dining out",
+      "transaction_id": 5322
+    },
+    {
+      "bank_balance_pre": 44749.92,
+      "transaction_time": "2024-11-29 08:07:00",
+      "transaction_amount": -462.78,
+      "transaction_details": "Purchase of Product 3",
+      "transaction_id": 6660
+    },
+    {
+      "bank_balance_pre": 44287.14,
+      "transaction_time": "2024-09-12 08:57:00",
+      "transaction_amount": -187.16,
+      "transaction_details": "Dining out",
+      "transaction_id": 2453
+    },
+    {
+      "bank_balance_pre": 44099.98,
+      "transaction_time": "2024-11-07 19:00:00",
+      "transaction_amount": -276.86,
+      "transaction_details": "Clothing",
+      "transaction_id": 4524
+    },
+    {
+      "bank_balance_pre": 43823.12,
+      "transaction_time": "2024-02-24 10:34:00",
+      "transaction_amount": 3000.0,
+      "transaction_details": "Bonus",
+      "transaction_id": 6747
+    },
+    {
+      "bank_balance_pre": 46823.12,
+      "transaction_time": "2024-10-09 07:49:00",
+      "transaction_amount": -24.68,
+      "transaction_details": "Purchase of Product 10",
+      "transaction_id": 8476
+    },
+    {
+      "bank_balance_pre": 46798.44,
+      "transaction_time": "2024-07-14 20:33:00",
+      "transaction_amount": -439.86,
+      "transaction_details": "Groceries",
+      "transaction_id": 8287
+    },
+    {
+      "bank_balance_pre": 46358.58,
+      "transaction_time": "2024-10-14 22:13:00",
+      "transaction_amount": -123.56,
+      "transaction_details": "Utilities",
+      "transaction_id": 5843
+    },
+    {
+      "bank_balance_pre": 46235.02,
+      "transaction_time": "2024-05-07 17:38:00",
+      "transaction_amount": -445.25,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 1897
+    },
+    {
+      "bank_balance_pre": 45789.77,
+      "transaction_time": "2024-09-13 12:33:00",
+      "transaction_amount": -335.28,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 7235
+    },
+    {
+      "bank_balance_pre": 45454.49,
+      "transaction_time": "2024-05-22 11:31:00",
+      "transaction_amount": -332.79,
+      "transaction_details": "Purchase of Product 3",
+      "transaction_id": 8363
+    },
+    {
+      "bank_balance_pre": 45121.7,
+      "transaction_time": "2024-11-27 10:04:00",
+      "transaction_amount": -333.55,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 8821
+    },
+    {
+      "bank_balance_pre": 44788.15,
+      "transaction_time": "2024-06-11 07:42:00",
+      "transaction_amount": -485.95,
+      "transaction_details": "Purchase of Product 9",
+      "transaction_id": 2929
+    },
+    {
+      "bank_balance_pre": 44302.2,
+      "transaction_time": "2024-07-02 15:01:00",
+      "transaction_amount": -56.6,
+      "transaction_details": "Dining out",
+      "transaction_id": 5530
+    },
+    {
+      "bank_balance_pre": 44245.6,
+      "transaction_time": "2024-03-15 11:39:00",
+      "transaction_amount": -422.18,
+      "transaction_details": "Dining out",
+      "transaction_id": 8980
+    },
+    {
+      "bank_balance_pre": 43823.42,
+      "transaction_time": "2024-04-05 18:32:00",
+      "transaction_amount": -257.36,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 3049
+    },
+    {
+      "bank_balance_pre": 43566.06,
+      "transaction_time": "2024-04-17 04:32:00",
+      "transaction_amount": -463.3,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4162
+    },
+    {
+      "bank_balance_pre": 43102.76,
+      "transaction_time": "2024-01-25 13:45:00",
+      "transaction_amount": -463.73,
+      "transaction_details": "Dining out",
+      "transaction_id": 8452
+    },
+    {
+      "bank_balance_pre": 42639.03,
+      "transaction_time": "2024-08-21 03:55:00",
+      "transaction_amount": -37.7,
+      "transaction_details": "Gym membership",
+      "transaction_id": 2749
+    },
+    {
+      "bank_balance_pre": 42601.33,
+      "transaction_time": "2024-04-15 01:57:00",
+      "transaction_amount": -486.45,
+      "transaction_details": "Utilities",
+      "transaction_id": 6274
+    },
+    {
+      "bank_balance_pre": 42114.88,
+      "transaction_time": "2024-04-29 02:52:00",
+      "transaction_amount": -125.69,
+      "transaction_details": "Dining out",
+      "transaction_id": 1986
+    },
+    {
+      "bank_balance_pre": 41989.19,
+      "transaction_time": "2024-05-22 12:36:00",
+      "transaction_amount": -29.87,
+      "transaction_details": "Dining out",
+      "transaction_id": 4047
+    },
+    {
+      "bank_balance_pre": 41959.32,
+      "transaction_time": "2024-09-02 18:19:00",
+      "transaction_amount": -333.63,
+      "transaction_details": "Utilities",
+      "transaction_id": 7933
+    },
+    {
+      "bank_balance_pre": 41625.69,
+      "transaction_time": "2024-12-17 12:12:00",
+      "transaction_amount": -466.04,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 4061
+    },
+    {
+      "bank_balance_pre": 41159.65,
+      "transaction_time": "2024-09-07 18:41:00",
+      "transaction_amount": -341.09,
+      "transaction_details": "Clothing",
+      "transaction_id": 8847
+    },
+    {
+      "bank_balance_pre": 40818.56,
+      "transaction_time": "2024-10-25 15:55:00",
+      "transaction_amount": -337.0,
+      "transaction_details": "Utilities",
+      "transaction_id": 8532
+    },
+    {
+      "bank_balance_pre": 40481.56,
+      "transaction_time": "2024-07-19 21:31:00",
+      "transaction_amount": -330.72,
+      "transaction_details": "Utilities",
+      "transaction_id": 6410
+    },
+    {
+      "bank_balance_pre": 40150.84,
+      "transaction_time": "2024-01-03 03:11:00",
+      "transaction_amount": -193.42,
+      "transaction_details": "Clothing",
+      "transaction_id": 3042
+    },
+    {
+      "bank_balance_pre": 39957.42,
+      "transaction_time": "2024-09-26 04:09:00",
+      "transaction_amount": -174.87,
+      "transaction_details": "Groceries",
+      "transaction_id": 7472
+    },
+    {
+      "bank_balance_pre": 39782.55,
+      "transaction_time": "2024-09-22 19:05:00",
+      "transaction_amount": -389.02,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 1520
+    },
+    {
+      "bank_balance_pre": 39393.53,
+      "transaction_time": "2024-05-05 10:34:00",
+      "transaction_amount": -492.51,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 9802
+    },
+    {
+      "bank_balance_pre": 38901.02,
+      "transaction_time": "2024-12-04 18:18:00",
+      "transaction_amount": -444.13,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 4059
+    },
+    {
+      "bank_balance_pre": 38456.89,
+      "transaction_time": "2024-06-12 17:08:00",
+      "transaction_amount": -482.75,
+      "transaction_details": "Utilities",
+      "transaction_id": 5124
+    },
+    {
+      "bank_balance_pre": 37974.14,
+      "transaction_time": "2024-07-30 18:21:00",
+      "transaction_amount": -456.86,
+      "transaction_details": "Gym membership",
+      "transaction_id": 1284
+    },
+    {
+      "bank_balance_pre": 37517.28,
+      "transaction_time": "2024-09-26 11:06:00",
+      "transaction_amount": -96.53,
+      "transaction_details": "Gym membership",
+      "transaction_id": 6681
+    },
+    {
+      "bank_balance_pre": 37420.75,
+      "transaction_time": "2024-09-01 05:11:00",
+      "transaction_amount": -70.85,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 2197
+    },
+    {
+      "bank_balance_pre": 37349.9,
+      "transaction_time": "2024-10-24 09:52:00",
+      "transaction_amount": -156.09,
+      "transaction_details": "Utilities",
+      "transaction_id": 6145
+    },
+    {
+      "bank_balance_pre": 37193.81,
+      "transaction_time": "2024-06-21 07:58:00",
+      "transaction_amount": -274.64,
+      "transaction_details": "Gym membership",
+      "transaction_id": 8767
+    },
+    {
+      "bank_balance_pre": 36919.17,
+      "transaction_time": "2024-02-01 14:48:00",
+      "transaction_amount": -456.34,
+      "transaction_details": "Groceries",
+      "transaction_id": 2124
+    },
+    {
+      "bank_balance_pre": 36462.83,
+      "transaction_time": "2024-06-07 04:32:00",
+      "transaction_amount": -76.75,
+      "transaction_details": "Clothing",
+      "transaction_id": 2323
+    },
+    {
+      "bank_balance_pre": 36386.08,
+      "transaction_time": "2024-11-16 10:17:00",
+      "transaction_amount": -75.61,
+      "transaction_details": "Dining out",
+      "transaction_id": 4060
+    },
+    {
+      "bank_balance_pre": 36310.47,
+      "transaction_time": "2024-02-19 13:14:00",
+      "transaction_amount": -51.03,
+      "transaction_details": "Clothing",
+      "transaction_id": 2175
+    },
+    {
+      "bank_balance_pre": 36259.44,
+      "transaction_time": "2024-08-09 16:42:00",
+      "transaction_amount": -254.73,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 7794
+    },
+    {
+      "bank_balance_pre": 36004.71,
+      "transaction_time": "2024-11-07 11:08:00",
+      "transaction_amount": -135.12,
+      "transaction_details": "Utilities",
+      "transaction_id": 8191
+    },
+    {
+      "bank_balance_pre": 35869.59,
+      "transaction_time": "2024-01-09 20:05:00",
+      "transaction_amount": -174.81,
+      "transaction_details": "Clothing",
+      "transaction_id": 6482
+    },
+    {
+      "bank_balance_pre": 35694.78,
+      "transaction_time": "2024-09-25 16:42:00",
+      "transaction_amount": -287.37,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 9704
+    },
+    {
+      "bank_balance_pre": 35407.41,
+      "transaction_time": "2024-05-03 19:57:00",
+      "transaction_amount": -201.67,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4273
+    },
+    {
+      "bank_balance_pre": 35205.74,
+      "transaction_time": "2024-05-01 16:54:00",
+      "transaction_amount": -419.47,
+      "transaction_details": "Clothing",
+      "transaction_id": 6934
+    },
+    {
+      "bank_balance_pre": 34786.27,
+      "transaction_time": "2024-02-03 23:15:00",
+      "transaction_amount": -367.85,
+      "transaction_details": "Dining out",
+      "transaction_id": 4838
+    },
+    {
+      "bank_balance_pre": 34418.42,
+      "transaction_time": "2024-05-06 12:56:00",
+      "transaction_amount": -402.33,
+      "transaction_details": "Utilities",
+      "transaction_id": 4035
+    },
+    {
+      "bank_balance_pre": 34016.09,
+      "transaction_time": "2024-09-29 15:15:00",
+      "transaction_amount": -119.53,
+      "transaction_details": "Groceries",
+      "transaction_id": 5284
+    },
+    {
+      "bank_balance_pre": 33896.56,
+      "transaction_time": "2024-05-13 21:27:00",
+      "transaction_amount": -263.64,
+      "transaction_details": "Rent payment",
+      "transaction_id": 5199
+    },
+    {
+      "bank_balance_pre": 33632.92,
+      "transaction_time": "2024-08-19 20:21:00",
+      "transaction_amount": -132.86,
+      "transaction_details": "Gym membership",
+      "transaction_id": 5179
+    },
+    {
+      "bank_balance_pre": 33500.06,
+      "transaction_time": "2024-06-11 05:49:00",
+      "transaction_amount": -472.61,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 4309
+    },
+    {
+      "bank_balance_pre": 33027.45,
+      "transaction_time": "2024-08-21 15:58:00",
+      "transaction_amount": 26228.0,
+      "transaction_details": "Salary deposit",
+      "transaction_id": 7090
+    },
+    {
+      "bank_balance_pre": 59255.45,
+      "transaction_time": "2024-12-11 00:56:00",
+      "transaction_amount": -101.18,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 4072
+    },
+    {
+      "bank_balance_pre": 59154.27,
+      "transaction_time": "2024-01-18 18:18:00",
+      "transaction_amount": -434.95,
+      "transaction_details": "Purchase of Product 4",
+      "transaction_id": 7968
+    },
+    {
+      "bank_balance_pre": 58719.32,
+      "transaction_time": "2024-02-09 20:33:00",
+      "transaction_amount": -329.45,
+      "transaction_details": "Rent payment",
+      "transaction_id": 5099
+    },
+    {
+      "bank_balance_pre": 58389.87,
+      "transaction_time": "2024-11-10 14:42:00",
+      "transaction_amount": -191.59,
+      "transaction_details": "Dining out",
+      "transaction_id": 9099
+    },
+    {
+      "bank_balance_pre": 58198.28,
+      "transaction_time": "2024-09-28 15:55:00",
+      "transaction_amount": -316.28,
+      "transaction_details": "Groceries",
+      "transaction_id": 8103
+    },
+    {
+      "bank_balance_pre": 57882.0,
+      "transaction_time": "2024-04-10 18:12:00",
+      "transaction_amount": -182.79,
+      "transaction_details": "Groceries",
+      "transaction_id": 7216
+    },
+    {
+      "bank_balance_pre": 57699.21,
+      "transaction_time": "2024-10-07 07:54:00",
+      "transaction_amount": -380.7,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3897
+    },
+    {
+      "bank_balance_pre": 57318.51,
+      "transaction_time": "2024-11-18 09:13:00",
+      "transaction_amount": -402.63,
+      "transaction_details": "Gym membership",
+      "transaction_id": 3146
+    },
+    {
+      "bank_balance_pre": 56915.88,
+      "transaction_time": "2024-07-27 15:49:00",
+      "transaction_amount": -173.27,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 6193
+    },
+    {
+      "bank_balance_pre": 56742.61,
+      "transaction_time": "2024-10-04 09:32:00",
+      "transaction_amount": -207.88,
+      "transaction_details": "Dining out",
+      "transaction_id": 4803
+    },
+    {
+      "bank_balance_pre": 56534.73,
+      "transaction_time": "2024-07-24 11:56:00",
+      "transaction_amount": -215.22,
+      "transaction_details": "Purchase of Product 8",
+      "transaction_id": 2734
+    },
+    {
+      "bank_balance_pre": 56319.51,
+      "transaction_time": "2024-09-13 08:48:00",
+      "transaction_amount": -85.43,
+      "transaction_details": "Rent payment",
+      "transaction_id": 5034
+    },
+    {
+      "bank_balance_pre": 56234.08,
+      "transaction_time": "2024-03-25 02:21:00",
+      "transaction_amount": -171.42,
+      "transaction_details": "Groceries",
+      "transaction_id": 9057
+    },
+    {
+      "bank_balance_pre": 56062.66,
+      "transaction_time": "2024-09-30 15:46:00",
+      "transaction_amount": -107.08,
+      "transaction_details": "Purchase of Product 1",
+      "transaction_id": 3794
+    },
+    {
+      "bank_balance_pre": 55955.58,
+      "transaction_time": "2024-05-26 16:15:00",
+      "transaction_amount": -143.6,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9958
+    },
+    {
+      "bank_balance_pre": 55811.98,
+      "transaction_time": "2024-08-17 06:14:00",
+      "transaction_amount": -367.02,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4490
+    },
+    {
+      "bank_balance_pre": 55444.96,
+      "transaction_time": "2024-02-10 13:57:00",
+      "transaction_amount": -169.56,
+      "transaction_details": "Dining out",
+      "transaction_id": 5093
+    },
+    {
+      "bank_balance_pre": 55275.4,
+      "transaction_time": "2024-11-05 21:27:00",
+      "transaction_amount": -420.6,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 5375
+    },
+    {
+      "bank_balance_pre": 54854.8,
+      "transaction_time": "2024-11-06 10:49:00",
+      "transaction_amount": -398.19,
+      "transaction_details": "Gym membership",
+      "transaction_id": 9101
+    },
+    {
+      "bank_balance_pre": 54456.61,
+      "transaction_time": "2024-12-22 23:32:00",
+      "transaction_amount": -453.92,
+      "transaction_details": "Purchase of Product 10",
+      "transaction_id": 9888
+    },
+    {
+      "bank_balance_pre": 54002.69,
+      "transaction_time": "2024-04-24 10:51:00",
+      "transaction_amount": -341.23,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 5904
+    },
+    {
+      "bank_balance_pre": 53661.46,
+      "transaction_time": "2024-07-22 15:35:00",
+      "transaction_amount": -57.59,
+      "transaction_details": "Clothing",
+      "transaction_id": 3082
+    },
+    {
+      "bank_balance_pre": 53603.87,
+      "transaction_time": "2024-01-21 20:20:00",
+      "transaction_amount": -251.42,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3316
+    },
+    {
+      "bank_balance_pre": 53352.45,
+      "transaction_time": "2024-04-01 12:58:00",
+      "transaction_amount": -289.21,
+      "transaction_details": "Rent payment",
+      "transaction_id": 7462
+    },
+    {
+      "bank_balance_pre": 53063.24,
+      "transaction_time": "2024-03-23 03:27:00",
+      "transaction_amount": -440.26,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 2362
+    },
+    {
+      "bank_balance_pre": 52622.98,
+      "transaction_time": "2024-05-13 00:03:00",
+      "transaction_amount": -296.18,
+      "transaction_details": "Groceries",
+      "transaction_id": 5208
+    },
+    {
+      "bank_balance_pre": 52326.8,
+      "transaction_time": "2024-11-26 11:19:00",
+      "transaction_amount": -33.26,
+      "transaction_details": "Purchase of Product 10",
+      "transaction_id": 8733
+    },
+    {
+      "bank_balance_pre": 52293.54,
+      "transaction_time": "2024-06-28 13:33:00",
+      "transaction_amount": -66.84,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 1264
+    },
+    {
+      "bank_balance_pre": 52226.7,
+      "transaction_time": "2024-02-04 19:06:00",
+      "transaction_amount": -366.73,
+      "transaction_details": "Rent payment",
+      "transaction_id": 2103
+    },
+    {
+      "bank_balance_pre": 51859.97,
+      "transaction_time": "2024-11-03 21:09:00",
+      "transaction_amount": -428.59,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9433
+    },
+    {
+      "bank_balance_pre": 51431.38,
+      "transaction_time": "2024-01-18 07:37:00",
+      "transaction_amount": -308.98,
+      "transaction_details": "Gym membership",
+      "transaction_id": 4307
+    },
+    {
+      "bank_balance_pre": 51122.4,
+      "transaction_time": "2024-12-10 23:02:00",
+      "transaction_amount": -92.68,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4920
+    },
+    {
+      "bank_balance_pre": 51029.72,
+      "transaction_time": "2024-04-17 18:06:00",
+      "transaction_amount": -478.27,
+      "transaction_details": "Purchase of Product 9",
+      "transaction_id": 9776
+    },
+    {
+      "bank_balance_pre": 50551.45,
+      "transaction_time": "2024-02-11 10:40:00",
+      "transaction_amount": -223.43,
+      "transaction_details": "Gym membership",
+      "transaction_id": 2775
+    },
+    {
+      "bank_balance_pre": 50328.02,
+      "transaction_time": "2024-05-17 10:05:00",
+      "transaction_amount": -150.52,
+      "transaction_details": "Purchase of Product 10",
+      "transaction_id": 2296
+    },
+    {
+      "bank_balance_pre": 50177.5,
+      "transaction_time": "2024-03-28 06:06:00",
+      "transaction_amount": -25.15,
+      "transaction_details": "Clothing",
+      "transaction_id": 2088
+    },
+    {
+      "bank_balance_pre": 50152.35,
+      "transaction_time": "2024-10-02 14:15:00",
+      "transaction_amount": -69.15,
+      "transaction_details": "Dining out",
+      "transaction_id": 1388
+    },
+    {
+      "bank_balance_pre": 50083.2,
+      "transaction_time": "2024-12-30 04:43:00",
+      "transaction_amount": -345.64,
+      "transaction_details": "Utilities",
+      "transaction_id": 4108
+    },
+    {
+      "bank_balance_pre": 49737.56,
+      "transaction_time": "2024-07-31 16:33:00",
+      "transaction_amount": -67.73,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 9153
+    },
+    {
+      "bank_balance_pre": 49669.83,
+      "transaction_time": "2024-11-21 12:09:00",
+      "transaction_amount": -156.94,
+      "transaction_details": "Purchase of Product 3",
+      "transaction_id": 1889
+    },
+    {
+      "bank_balance_pre": 49512.89,
+      "transaction_time": "2024-04-19 21:07:00",
+      "transaction_amount": -414.82,
+      "transaction_details": "Dining out",
+      "transaction_id": 6356
+    },
+    {
+      "bank_balance_pre": 49098.07,
+      "transaction_time": "2024-06-29 23:49:00",
+      "transaction_amount": -237.7,
+      "transaction_details": "Dining out",
+      "transaction_id": 9098
+    },
+    {
+      "bank_balance_pre": 48860.37,
+      "transaction_time": "2024-12-13 11:46:00",
+      "transaction_amount": -223.43,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 5159
+    },
+    {
+      "bank_balance_pre": 48636.94,
+      "transaction_time": "2024-03-31 07:22:00",
+      "transaction_amount": -163.74,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 5636
+    },
+    {
+      "bank_balance_pre": 48473.2,
+      "transaction_time": "2024-06-26 11:55:00",
+      "transaction_amount": -270.45,
+      "transaction_details": "Rent payment",
+      "transaction_id": 4097
+    },
+    {
+      "bank_balance_pre": 48202.75,
+      "transaction_time": "2024-10-31 13:02:00",
+      "transaction_amount": -455.6,
+      "transaction_details": "Dining out",
+      "transaction_id": 2254
+    },
+    {
+      "bank_balance_pre": 47747.15,
+      "transaction_time": "2024-07-25 00:38:00",
+      "transaction_amount": -486.71,
+      "transaction_details": "Purchase of Product 1",
+      "transaction_id": 8621
+    },
+    {
+      "bank_balance_pre": 47260.44,
+      "transaction_time": "2024-10-31 07:02:00",
+      "transaction_amount": -321.98,
+      "transaction_details": "Dining out",
+      "transaction_id": 4124
+    },
+    {
+      "bank_balance_pre": 46938.46,
+      "transaction_time": "2024-01-03 11:03:00",
+      "transaction_amount": -106.58,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 3130
+    },
+    {
+      "bank_balance_pre": 46831.88,
+      "transaction_time": "2024-02-07 08:14:00",
+      "transaction_amount": 3000.0,
+      "transaction_details": "Bonus",
+      "transaction_id": 6512
+    },
+    {
+      "bank_balance_pre": 49831.88,
+      "transaction_time": "2024-08-09 11:37:00",
+      "transaction_amount": -272.08,
+      "transaction_details": "Dining out",
+      "transaction_id": 4009
+    },
+    {
+      "bank_balance_pre": 49559.8,
+      "transaction_time": "2024-09-25 18:28:00",
+      "transaction_amount": -83.62,
+      "transaction_details": "Rent payment",
+      "transaction_id": 7102
+    },
+    {
+      "bank_balance_pre": 49476.18,
+      "transaction_time": "2024-10-02 23:54:00",
+      "transaction_amount": -43.67,
+      "transaction_details": "Rent payment",
+      "transaction_id": 8606
+    },
+    {
+      "bank_balance_pre": 49432.51,
+      "transaction_time": "2024-06-26 09:54:00",
+      "transaction_amount": -254.25,
+      "transaction_details": "Gym membership",
+      "transaction_id": 1523
+    },
+    {
+      "bank_balance_pre": 49178.26,
+      "transaction_time": "2024-03-05 14:10:00",
+      "transaction_amount": -172.14,
+      "transaction_details": "Gym membership",
+      "transaction_id": 9487
+    },
+    {
+      "bank_balance_pre": 49006.12,
+      "transaction_time": "2024-10-13 03:55:00",
+      "transaction_amount": -56.76,
+      "transaction_details": "Utilities",
+      "transaction_id": 2305
+    },
+    {
+      "bank_balance_pre": 48949.36,
+      "transaction_time": "2024-07-02 13:29:00",
+      "transaction_amount": -250.84,
+      "transaction_details": "Purchase of Product 3",
+      "transaction_id": 4303
+    },
+    {
+      "bank_balance_pre": 48698.52,
+      "transaction_time": "2024-01-08 07:30:00",
+      "transaction_amount": -268.98,
+      "transaction_details": "Clothing",
+      "transaction_id": 6720
+    },
+    {
+      "bank_balance_pre": 48429.54,
+      "transaction_time": "2024-12-12 06:47:00",
+      "transaction_amount": -173.41,
+      "transaction_details": "Groceries",
+      "transaction_id": 1108
+    },
+    {
+      "bank_balance_pre": 48256.13,
+      "transaction_time": "2024-05-13 10:24:00",
+      "transaction_amount": -245.3,
+      "transaction_details": "Dining out",
+      "transaction_id": 8945
+    },
+    {
+      "bank_balance_pre": 48010.83,
+      "transaction_time": "2024-12-30 10:03:00",
+      "transaction_amount": -202.87,
+      "transaction_details": "Purchase of Product 9",
+      "transaction_id": 6468
+    },
+    {
+      "bank_balance_pre": 47807.96,
+      "transaction_time": "2024-03-07 06:17:00",
+      "transaction_amount": -397.53,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9055
+    },
+    {
+      "bank_balance_pre": 47410.43,
+      "transaction_time": "2024-09-14 23:32:00",
+      "transaction_amount": -271.24,
+      "transaction_details": "Purchase of Product 6",
+      "transaction_id": 9346
+    },
+    {
+      "bank_balance_pre": 47139.19,
+      "transaction_time": "2024-02-21 20:57:00",
+      "transaction_amount": -241.53,
+      "transaction_details": "Clothing",
+      "transaction_id": 4865
+    },
+    {
+      "bank_balance_pre": 46897.66,
+      "transaction_time": "2024-02-03 04:32:00",
+      "transaction_amount": -45.99,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 3314
+    },
+    {
+      "bank_balance_pre": 46851.67,
+      "transaction_time": "2024-02-17 20:30:00",
+      "transaction_amount": -443.91,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 2661
+    },
+    {
+      "bank_balance_pre": 46407.76,
+      "transaction_time": "2024-07-28 15:51:00",
+      "transaction_amount": -36.82,
+      "transaction_details": "Purchase of Product 10",
+      "transaction_id": 3199
+    },
+    {
+      "bank_balance_pre": 46370.94,
+      "transaction_time": "2024-11-14 00:25:00",
+      "transaction_amount": -375.3,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 9987
+    },
+    {
+      "bank_balance_pre": 45995.64,
+      "transaction_time": "2024-04-05 22:40:00",
+      "transaction_amount": -443.16,
+      "transaction_details": "Clothing",
+      "transaction_id": 4575
+    },
+    {
+      "bank_balance_pre": 45552.48,
+      "transaction_time": "2024-05-18 13:32:00",
+      "transaction_amount": -172.92,
+      "transaction_details": "Groceries",
+      "transaction_id": 8795
+    },
+    {
+      "bank_balance_pre": 45379.56,
+      "transaction_time": "2024-01-09 06:56:00",
+      "transaction_amount": -486.34,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 9560
+    },
+    {
+      "bank_balance_pre": 44893.22,
+      "transaction_time": "2024-10-27 03:01:00",
+      "transaction_amount": -435.4,
+      "transaction_details": "Clothing",
+      "transaction_id": 7103
+    },
+    {
+      "bank_balance_pre": 44457.82,
+      "transaction_time": "2024-03-25 13:21:00",
+      "transaction_amount": -238.8,
+      "transaction_details": "Gym membership",
+      "transaction_id": 4991
+    },
+    {
+      "bank_balance_pre": 44219.02,
+      "transaction_time": "2024-08-14 09:07:00",
+      "transaction_amount": -342.87,
+      "transaction_details": "Clothing",
+      "transaction_id": 3091
+    },
+    {
+      "bank_balance_pre": 43876.15,
+      "transaction_time": "2024-06-27 03:36:00",
+      "transaction_amount": -404.59,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9933
+    },
+    {
+      "bank_balance_pre": 43471.56,
+      "transaction_time": "2024-06-28 15:23:00",
+      "transaction_amount": -490.01,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 5685
+    },
+    {
+      "bank_balance_pre": 42981.55,
+      "transaction_time": "2024-07-15 11:19:00",
+      "transaction_amount": -455.92,
+      "transaction_details": "Groceries",
+      "transaction_id": 1931
+    },
+    {
+      "bank_balance_pre": 42525.63,
+      "transaction_time": "2024-12-19 04:07:00",
+      "transaction_amount": -481.2,
+      "transaction_details": "Clothing",
+      "transaction_id": 2770
+    },
+    {
+      "bank_balance_pre": 42044.43,
+      "transaction_time": "2024-01-08 06:14:00",
+      "transaction_amount": -495.51,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9185
+    },
+    {
+      "bank_balance_pre": 41548.92,
+      "transaction_time": "2024-05-16 18:20:00",
+      "transaction_amount": -211.41,
+      "transaction_details": "Groceries",
+      "transaction_id": 6362
+    },
+    {
+      "bank_balance_pre": 41337.51,
+      "transaction_time": "2024-11-22 03:36:00",
+      "transaction_amount": -88.28,
+      "transaction_details": "Utilities",
+      "transaction_id": 3295
+    },
+    {
+      "bank_balance_pre": 41249.23,
+      "transaction_time": "2024-03-25 07:42:00",
+      "transaction_amount": -331.74,
+      "transaction_details": "Dining out",
+      "transaction_id": 9363
+    },
+    {
+      "bank_balance_pre": 40917.49,
+      "transaction_time": "2024-11-30 08:44:00",
+      "transaction_amount": -401.4,
+      "transaction_details": "Gym membership",
+      "transaction_id": 8833
+    },
+    {
+      "bank_balance_pre": 40516.09,
+      "transaction_time": "2024-12-16 14:58:00",
+      "transaction_amount": -201.31,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 9545
+    },
+    {
+      "bank_balance_pre": 40314.78,
+      "transaction_time": "2024-01-05 23:22:00",
+      "transaction_amount": -177.53,
+      "transaction_details": "Dining out",
+      "transaction_id": 3879
+    },
+    {
+      "bank_balance_pre": 40137.25,
+      "transaction_time": "2024-12-01 20:15:00",
+      "transaction_amount": -411.72,
+      "transaction_details": "Clothing",
+      "transaction_id": 5229
+    },
+    {
+      "bank_balance_pre": 39725.53,
+      "transaction_time": "2024-04-10 02:44:00",
+      "transaction_amount": -150.08,
+      "transaction_details": "Purchase of Product 4",
+      "transaction_id": 4157
+    },
+    {
+      "bank_balance_pre": 39575.45,
+      "transaction_time": "2024-03-04 21:37:00",
+      "transaction_amount": -153.61,
+      "transaction_details": "Dining out",
+      "transaction_id": 1476
+    },
+    {
+      "bank_balance_pre": 39421.84,
+      "transaction_time": "2024-10-22 21:58:00",
+      "transaction_amount": -326.02,
+      "transaction_details": "Purchase of Product 9",
+      "transaction_id": 7125
+    },
+    {
+      "bank_balance_pre": 39095.82,
+      "transaction_time": "2024-03-05 06:53:00",
+      "transaction_amount": -322.84,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 7532
+    },
+    {
+      "bank_balance_pre": 38772.98,
+      "transaction_time": "2024-11-11 19:39:00",
+      "transaction_amount": -155.87,
+      "transaction_details": "Rent payment",
+      "transaction_id": 5360
+    },
+    {
+      "bank_balance_pre": 38617.11,
+      "transaction_time": "2024-07-24 11:14:00",
+      "transaction_amount": -110.24,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 9896
+    },
+    {
+      "bank_balance_pre": 38506.87,
+      "transaction_time": "2024-09-12 15:00:00",
+      "transaction_amount": -272.23,
+      "transaction_details": "Clothing",
+      "transaction_id": 7978
+    },
+    {
+      "bank_balance_pre": 38234.64,
+      "transaction_time": "2024-11-09 02:56:00",
+      "transaction_amount": -260.0,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 6623
+    },
+    {
+      "bank_balance_pre": 37974.64,
+      "transaction_time": "2024-01-24 10:57:00",
+      "transaction_amount": -122.97,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 1872
+    },
+    {
+      "bank_balance_pre": 37851.67,
+      "transaction_time": "2024-10-29 23:58:00",
+      "transaction_amount": -152.31,
+      "transaction_details": "Purchase of Product 10",
+      "transaction_id": 8491
+    },
+    {
+      "bank_balance_pre": 37699.36,
+      "transaction_time": "2024-10-28 22:23:00",
+      "transaction_amount": -197.15,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4694
+    },
+    {
+      "bank_balance_pre": 37502.21,
+      "transaction_time": "2024-10-15 10:36:00",
+      "transaction_amount": -346.33,
+      "transaction_details": "Dining out",
+      "transaction_id": 8748
+    },
+    {
+      "bank_balance_pre": 37155.88,
+      "transaction_time": "2024-03-19 20:11:00",
+      "transaction_amount": -286.82,
+      "transaction_details": "Clothing",
+      "transaction_id": 3575
+    },
+    {
+      "bank_balance_pre": 36869.06,
+      "transaction_time": "2024-01-20 20:02:00",
+      "transaction_amount": 26228.0,
+      "transaction_details": "Salary deposit",
+      "transaction_id": 4782
+    },
+    {
+      "bank_balance_pre": 63097.06,
+      "transaction_time": "2024-11-12 10:31:00",
+      "transaction_amount": -244.34,
+      "transaction_details": "Clothing",
+      "transaction_id": 5115
+    },
+    {
+      "bank_balance_pre": 62852.72,
+      "transaction_time": "2024-06-06 14:47:00",
+      "transaction_amount": -449.95,
+      "transaction_details": "Utilities",
+      "transaction_id": 8630
+    },
+    {
+      "bank_balance_pre": 62402.77,
+      "transaction_time": "2024-06-30 14:59:00",
+      "transaction_amount": -367.57,
+      "transaction_details": "Groceries",
+      "transaction_id": 2698
+    },
+    {
+      "bank_balance_pre": 62035.2,
+      "transaction_time": "2024-12-09 03:25:00",
+      "transaction_amount": -131.05,
+      "transaction_details": "Dining out",
+      "transaction_id": 8536
+    },
+    {
+      "bank_balance_pre": 61904.15,
+      "transaction_time": "2024-04-10 06:09:00",
+      "transaction_amount": -152.38,
+      "transaction_details": "Purchase of Product 5",
+      "transaction_id": 5765
+    },
+    {
+      "bank_balance_pre": 61751.77,
+      "transaction_time": "2024-01-15 07:37:00",
+      "transaction_amount": -184.93,
+      "transaction_details": "Clothing",
+      "transaction_id": 6731
+    },
+    {
+      "bank_balance_pre": 61566.84,
+      "transaction_time": "2024-08-17 21:22:00",
+      "transaction_amount": -444.5,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 3262
+    },
+    {
+      "bank_balance_pre": 61122.34,
+      "transaction_time": "2024-03-06 13:23:00",
+      "transaction_amount": -229.08,
+      "transaction_details": "Clothing",
+      "transaction_id": 4012
+    },
+    {
+      "bank_balance_pre": 60893.26,
+      "transaction_time": "2024-05-11 17:55:00",
+      "transaction_amount": -208.37,
+      "transaction_details": "Rent payment",
+      "transaction_id": 1113
+    },
+    {
+      "bank_balance_pre": 60684.89,
+      "transaction_time": "2024-01-30 16:49:00",
+      "transaction_amount": -131.51,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9796
+    },
+    {
+      "bank_balance_pre": 60553.38,
+      "transaction_time": "2024-02-08 07:44:00",
+      "transaction_amount": -303.18,
+      "transaction_details": "Purchase of Product 6",
+      "transaction_id": 5099
+    },
+    {
+      "bank_balance_pre": 60250.2,
+      "transaction_time": "2024-08-05 05:17:00",
+      "transaction_amount": -133.32,
+      "transaction_details": "Purchase of Product 8",
+      "transaction_id": 9772
+    },
+    {
+      "bank_balance_pre": 60116.88,
+      "transaction_time": "2024-09-01 16:00:00",
+      "transaction_amount": -243.38,
+      "transaction_details": "Clothing",
+      "transaction_id": 2740
+    },
+    {
+      "bank_balance_pre": 59873.5,
+      "transaction_time": "2024-02-23 06:03:00",
+      "transaction_amount": -168.87,
+      "transaction_details": "Rent payment",
+      "transaction_id": 7686
+    },
+    {
+      "bank_balance_pre": 59704.63,
+      "transaction_time": "2024-12-11 03:44:00",
+      "transaction_amount": -213.17,
+      "transaction_details": "Utilities",
+      "transaction_id": 9914
+    },
+    {
+      "bank_balance_pre": 59491.46,
+      "transaction_time": "2024-07-01 05:58:00",
+      "transaction_amount": -358.99,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 8056
+    },
+    {
+      "bank_balance_pre": 59132.47,
+      "transaction_time": "2024-08-04 08:52:00",
+      "transaction_amount": -321.21,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 6220
+    },
+    {
+      "bank_balance_pre": 58811.26,
+      "transaction_time": "2024-01-09 23:20:00",
+      "transaction_amount": -118.85,
+      "transaction_details": "Rent payment",
+      "transaction_id": 4428
+    },
+    {
+      "bank_balance_pre": 58692.41,
+      "transaction_time": "2024-05-19 16:01:00",
+      "transaction_amount": -121.25,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4952
+    },
+    {
+      "bank_balance_pre": 58571.16,
+      "transaction_time": "2024-08-17 20:00:00",
+      "transaction_amount": -349.41,
+      "transaction_details": "Utilities",
+      "transaction_id": 2424
+    },
+    {
+      "bank_balance_pre": 58221.75,
+      "transaction_time": "2024-11-08 23:25:00",
+      "transaction_amount": -263.58,
+      "transaction_details": "Rent payment",
+      "transaction_id": 4144
+    },
+    {
+      "bank_balance_pre": 57958.17,
+      "transaction_time": "2024-09-03 15:23:00",
+      "transaction_amount": -98.05,
+      "transaction_details": "Clothing",
+      "transaction_id": 7699
+    },
+    {
+      "bank_balance_pre": 57860.12,
+      "transaction_time": "2024-08-11 15:58:00",
+      "transaction_amount": -286.45,
+      "transaction_details": "Purchase of Product 5",
+      "transaction_id": 8443
+    },
+    {
+      "bank_balance_pre": 57573.67,
+      "transaction_time": "2024-05-27 10:34:00",
+      "transaction_amount": -458.66,
+      "transaction_details": "Groceries",
+      "transaction_id": 8578
+    },
+    {
+      "bank_balance_pre": 57115.01,
+      "transaction_time": "2024-10-24 03:02:00",
+      "transaction_amount": -395.19,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 2337
+    },
+    {
+      "bank_balance_pre": 56719.82,
+      "transaction_time": "2024-07-26 20:57:00",
+      "transaction_amount": -139.18,
+      "transaction_details": "Gym membership",
+      "transaction_id": 6634
+    },
+    {
+      "bank_balance_pre": 56580.64,
+      "transaction_time": "2024-02-25 23:45:00",
+      "transaction_amount": -160.35,
+      "transaction_details": "Rent payment",
+      "transaction_id": 4505
+    },
+    {
+      "bank_balance_pre": 56420.29,
+      "transaction_time": "2024-08-27 21:22:00",
+      "transaction_amount": -23.43,
+      "transaction_details": "Gym membership",
+      "transaction_id": 4404
+    },
+    {
+      "bank_balance_pre": 56396.86,
+      "transaction_time": "2024-04-12 09:25:00",
+      "transaction_amount": -233.72,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 5326
+    },
+    {
+      "bank_balance_pre": 56163.14,
+      "transaction_time": "2024-03-03 03:09:00",
+      "transaction_amount": -135.11,
+      "transaction_details": "Dining out",
+      "transaction_id": 5331
+    },
+    {
+      "bank_balance_pre": 56028.03,
+      "transaction_time": "2024-07-16 22:42:00",
+      "transaction_amount": -103.99,
+      "transaction_details": "Utilities",
+      "transaction_id": 6653
+    },
+    {
+      "bank_balance_pre": 55924.04,
+      "transaction_time": "2024-05-18 22:47:00",
+      "transaction_amount": -265.32,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 9353
+    },
+    {
+      "bank_balance_pre": 55658.72,
+      "transaction_time": "2024-02-02 20:53:00",
+      "transaction_amount": -398.13,
+      "transaction_details": "Rent payment",
+      "transaction_id": 2445
+    },
+    {
+      "bank_balance_pre": 55260.59,
+      "transaction_time": "2024-01-14 15:05:00",
+      "transaction_amount": -308.63,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 3747
+    },
+    {
+      "bank_balance_pre": 54951.96,
+      "transaction_time": "2024-06-08 07:39:00",
+      "transaction_amount": -269.8,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 9416
+    },
+    {
+      "bank_balance_pre": 54682.16,
+      "transaction_time": "2024-09-18 14:29:00",
+      "transaction_amount": -87.24,
+      "transaction_details": "Dining out",
+      "transaction_id": 1614
+    },
+    {
+      "bank_balance_pre": 54594.92,
+      "transaction_time": "2024-11-04 06:37:00",
+      "transaction_amount": -35.7,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9130
+    },
+    {
+      "bank_balance_pre": 54559.22,
+      "transaction_time": "2024-05-18 02:10:00",
+      "transaction_amount": -400.56,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 7864
+    },
+    {
+      "bank_balance_pre": 54158.66,
+      "transaction_time": "2024-09-10 19:16:00",
+      "transaction_amount": -463.59,
+      "transaction_details": "Utilities",
+      "transaction_id": 2729
+    },
+    {
+      "bank_balance_pre": 53695.07,
+      "transaction_time": "2024-09-27 11:13:00",
+      "transaction_amount": -478.2,
+      "transaction_details": "Gym membership",
+      "transaction_id": 7698
+    },
+    {
+      "bank_balance_pre": 53216.87,
+      "transaction_time": "2024-08-24 00:30:00",
+      "transaction_amount": -109.81,
+      "transaction_details": "Clothing",
+      "transaction_id": 2430
+    },
+    {
+      "bank_balance_pre": 53107.06,
+      "transaction_time": "2024-05-29 15:50:00",
+      "transaction_amount": -94.62,
+      "transaction_details": "Groceries",
+      "transaction_id": 7682
+    },
+    {
+      "bank_balance_pre": 53012.44,
+      "transaction_time": "2024-06-06 02:01:00",
+      "transaction_amount": -212.07,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 2452
+    },
+    {
+      "bank_balance_pre": 52800.37,
+      "transaction_time": "2024-12-05 07:49:00",
+      "transaction_amount": -280.6,
+      "transaction_details": "Utilities",
+      "transaction_id": 8731
+    },
+    {
+      "bank_balance_pre": 52519.77,
+      "transaction_time": "2024-09-29 22:25:00",
+      "transaction_amount": -135.19,
+      "transaction_details": "Gym membership",
+      "transaction_id": 4015
+    },
+    {
+      "bank_balance_pre": 52384.58,
+      "transaction_time": "2024-06-26 12:48:00",
+      "transaction_amount": -145.13,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 3355
+    },
+    {
+      "bank_balance_pre": 52239.45,
+      "transaction_time": "2024-12-11 02:16:00",
+      "transaction_amount": -50.62,
+      "transaction_details": "Dining out",
+      "transaction_id": 2812
+    },
+    {
+      "bank_balance_pre": 52188.83,
+      "transaction_time": "2024-05-17 01:52:00",
+      "transaction_amount": -389.64,
+      "transaction_details": "Utilities",
+      "transaction_id": 4520
+    },
+    {
+      "bank_balance_pre": 51799.19,
+      "transaction_time": "2024-10-24 21:57:00",
+      "transaction_amount": -290.52,
+      "transaction_details": "Clothing",
+      "transaction_id": 1743
+    },
+    {
+      "bank_balance_pre": 51508.67,
+      "transaction_time": "2024-07-22 15:39:00",
+      "transaction_amount": 3000.0,
+      "transaction_details": "Bonus",
+      "transaction_id": 1399
+    },
+    {
+      "bank_balance_pre": 54508.67,
+      "transaction_time": "2024-07-01 21:22:00",
+      "transaction_amount": -470.67,
+      "transaction_details": "Rent payment",
+      "transaction_id": 4853
+    },
+    {
+      "bank_balance_pre": 54038.0,
+      "transaction_time": "2024-11-09 20:19:00",
+      "transaction_amount": -51.91,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 6844
+    },
+    {
+      "bank_balance_pre": 53986.09,
+      "transaction_time": "2024-03-18 19:41:00",
+      "transaction_amount": -149.67,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 5069
+    },
+    {
+      "bank_balance_pre": 53836.42,
+      "transaction_time": "2024-10-09 09:05:00",
+      "transaction_amount": -235.0,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 4453
+    },
+    {
+      "bank_balance_pre": 53601.42,
+      "transaction_time": "2024-01-18 07:26:00",
+      "transaction_amount": -151.06,
+      "transaction_details": "Purchase of Product 1",
+      "transaction_id": 5978
+    },
+    {
+      "bank_balance_pre": 53450.36,
+      "transaction_time": "2024-08-11 01:55:00",
+      "transaction_amount": -479.55,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 3747
+    },
+    {
+      "bank_balance_pre": 52970.81,
+      "transaction_time": "2024-03-06 04:20:00",
+      "transaction_amount": -180.19,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 1388
+    },
+    {
+      "bank_balance_pre": 52790.62,
+      "transaction_time": "2024-02-14 05:48:00",
+      "transaction_amount": -92.25,
+      "transaction_details": "Groceries",
+      "transaction_id": 9679
+    },
+    {
+      "bank_balance_pre": 52698.37,
+      "transaction_time": "2024-02-03 07:09:00",
+      "transaction_amount": -183.88,
+      "transaction_details": "Gym membership",
+      "transaction_id": 9913
+    },
+    {
+      "bank_balance_pre": 52514.49,
+      "transaction_time": "2024-04-20 08:29:00",
+      "transaction_amount": -26.63,
+      "transaction_details": "Rent payment",
+      "transaction_id": 2479
+    },
+    {
+      "bank_balance_pre": 52487.86,
+      "transaction_time": "2024-09-21 19:26:00",
+      "transaction_amount": -351.3,
+      "transaction_details": "Groceries",
+      "transaction_id": 9309
+    },
+    {
+      "bank_balance_pre": 52136.56,
+      "transaction_time": "2024-04-01 09:55:00",
+      "transaction_amount": -237.24,
+      "transaction_details": "Dining out",
+      "transaction_id": 1709
+    },
+    {
+      "bank_balance_pre": 51899.32,
+      "transaction_time": "2024-10-26 01:42:00",
+      "transaction_amount": -196.1,
+      "transaction_details": "Gym membership",
+      "transaction_id": 9996
+    },
+    {
+      "bank_balance_pre": 51703.22,
+      "transaction_time": "2024-11-19 17:42:00",
+      "transaction_amount": -123.14,
+      "transaction_details": "Gym membership",
+      "transaction_id": 7481
+    },
+    {
+      "bank_balance_pre": 51580.08,
+      "transaction_time": "2024-08-28 12:02:00",
+      "transaction_amount": -156.47,
+      "transaction_details": "Clothing",
+      "transaction_id": 5716
+    },
+    {
+      "bank_balance_pre": 51423.61,
+      "transaction_time": "2024-11-19 02:44:00",
+      "transaction_amount": -279.38,
+      "transaction_details": "Gym membership",
+      "transaction_id": 3098
+    },
+    {
+      "bank_balance_pre": 51144.23,
+      "transaction_time": "2024-07-25 18:12:00",
+      "transaction_amount": -364.32,
+      "transaction_details": "Dining out",
+      "transaction_id": 5306
+    },
+    {
+      "bank_balance_pre": 50779.91,
+      "transaction_time": "2024-03-04 09:25:00",
+      "transaction_amount": -484.49,
+      "transaction_details": "Rent payment",
+      "transaction_id": 6427
+    },
+    {
+      "bank_balance_pre": 50295.42,
+      "transaction_time": "2024-11-18 19:17:00",
+      "transaction_amount": -107.38,
+      "transaction_details": "Rent payment",
+      "transaction_id": 7419
+    },
+    {
+      "bank_balance_pre": 50188.04,
+      "transaction_time": "2024-10-04 11:31:00",
+      "transaction_amount": -264.05,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 2936
+    },
+    {
+      "bank_balance_pre": 49923.99,
+      "transaction_time": "2024-10-04 22:51:00",
+      "transaction_amount": -439.95,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 3350
+    },
+    {
+      "bank_balance_pre": 49484.04,
+      "transaction_time": "2024-09-10 18:12:00",
+      "transaction_amount": -339.22,
+      "transaction_details": "Rent payment",
+      "transaction_id": 8494
+    },
+    {
+      "bank_balance_pre": 49144.82,
+      "transaction_time": "2024-09-15 13:40:00",
+      "transaction_amount": -224.82,
+      "transaction_details": "Groceries",
+      "transaction_id": 5833
+    },
+    {
+      "bank_balance_pre": 48920.0,
+      "transaction_time": "2024-03-17 11:07:00",
+      "transaction_amount": -42.58,
+      "transaction_details": "Clothing",
+      "transaction_id": 3738
+    },
+    {
+      "bank_balance_pre": 48877.42,
+      "transaction_time": "2024-07-15 18:55:00",
+      "transaction_amount": -234.3,
+      "transaction_details": "Dining out",
+      "transaction_id": 3984
+    },
+    {
+      "bank_balance_pre": 48643.12,
+      "transaction_time": "2024-11-19 04:32:00",
+      "transaction_amount": -27.46,
+      "transaction_details": "Dining out",
+      "transaction_id": 1715
+    },
+    {
+      "bank_balance_pre": 48615.66,
+      "transaction_time": "2024-08-12 22:23:00",
+      "transaction_amount": -27.33,
+      "transaction_details": "Gym membership",
+      "transaction_id": 8800
+    },
+    {
+      "bank_balance_pre": 48588.33,
+      "transaction_time": "2024-09-23 06:16:00",
+      "transaction_amount": -201.75,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 3438
+    },
+    {
+      "bank_balance_pre": 48386.58,
+      "transaction_time": "2024-09-28 02:30:00",
+      "transaction_amount": -58.66,
+      "transaction_details": "Gym membership",
+      "transaction_id": 3696
+    },
+    {
+      "bank_balance_pre": 48327.92,
+      "transaction_time": "2024-09-07 14:23:00",
+      "transaction_amount": -332.58,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4288
+    },
+    {
+      "bank_balance_pre": 47995.34,
+      "transaction_time": "2024-07-03 16:15:00",
+      "transaction_amount": -194.8,
+      "transaction_details": "Dining out",
+      "transaction_id": 8590
+    },
+    {
+      "bank_balance_pre": 47800.54,
+      "transaction_time": "2024-04-22 23:12:00",
+      "transaction_amount": -140.38,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9395
+    },
+    {
+      "bank_balance_pre": 47660.16,
+      "transaction_time": "2024-09-03 07:41:00",
+      "transaction_amount": -79.0,
+      "transaction_details": "Dining out",
+      "transaction_id": 5817
+    },
+    {
+      "bank_balance_pre": 47581.16,
+      "transaction_time": "2024-02-28 20:36:00",
+      "transaction_amount": -146.72,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9140
+    },
+    {
+      "bank_balance_pre": 47434.44,
+      "transaction_time": "2024-09-08 06:43:00",
+      "transaction_amount": -257.26,
+      "transaction_details": "Clothing",
+      "transaction_id": 3882
+    },
+    {
+      "bank_balance_pre": 47177.18,
+      "transaction_time": "2024-02-15 11:32:00",
+      "transaction_amount": -441.44,
+      "transaction_details": "Utilities",
+      "transaction_id": 2039
+    },
+    {
+      "bank_balance_pre": 46735.74,
+      "transaction_time": "2024-05-10 08:24:00",
+      "transaction_amount": -164.78,
+      "transaction_details": "Purchase of Product 6",
+      "transaction_id": 7747
+    },
+    {
+      "bank_balance_pre": 46570.96,
+      "transaction_time": "2024-03-03 07:21:00",
+      "transaction_amount": -316.87,
+      "transaction_details": "Dining out",
+      "transaction_id": 5655
+    },
+    {
+      "bank_balance_pre": 46254.09,
+      "transaction_time": "2024-03-22 03:05:00",
+      "transaction_amount": -72.98,
+      "transaction_details": "Purchase of Product 2",
+      "transaction_id": 4385
+    },
+    {
+      "bank_balance_pre": 46181.11,
+      "transaction_time": "2024-07-06 21:05:00",
+      "transaction_amount": -283.38,
+      "transaction_details": "Clothing",
+      "transaction_id": 7834
+    },
+    {
+      "bank_balance_pre": 45897.73,
+      "transaction_time": "2024-04-24 07:39:00",
+      "transaction_amount": -450.88,
+      "transaction_details": "Clothing",
+      "transaction_id": 9527
+    },
+    {
+      "bank_balance_pre": 45446.85,
+      "transaction_time": "2024-01-05 22:40:00",
+      "transaction_amount": -212.31,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3082
+    },
+    {
+      "bank_balance_pre": 45234.54,
+      "transaction_time": "2024-10-31 05:45:00",
+      "transaction_amount": -343.91,
+      "transaction_details": "Purchase of Product 1",
+      "transaction_id": 3902
+    },
+    {
+      "bank_balance_pre": 44890.63,
+      "transaction_time": "2024-11-22 11:50:00",
+      "transaction_amount": -460.14,
+      "transaction_details": "Rent payment",
+      "transaction_id": 9567
+    },
+    {
+      "bank_balance_pre": 44430.49,
+      "transaction_time": "2024-09-19 14:38:00",
+      "transaction_amount": -243.99,
+      "transaction_details": "Clothing",
+      "transaction_id": 9638
+    },
+    {
+      "bank_balance_pre": 44186.5,
+      "transaction_time": "2024-12-07 05:29:00",
+      "transaction_amount": -148.77,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 2557
+    },
+    {
+      "bank_balance_pre": 44037.73,
+      "transaction_time": "2024-04-28 14:13:00",
+      "transaction_amount": -43.38,
+      "transaction_details": "Groceries",
+      "transaction_id": 6422
+    },
+    {
+      "bank_balance_pre": 43994.35,
+      "transaction_time": "2024-12-08 11:26:00",
+      "transaction_amount": -198.99,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 6568
+    },
+    {
+      "bank_balance_pre": 43795.36,
+      "transaction_time": "2024-12-27 10:57:00",
+      "transaction_amount": -388.34,
+      "transaction_details": "Utilities",
+      "transaction_id": 8820
+    },
+    {
+      "bank_balance_pre": 43407.02,
+      "transaction_time": "2024-11-07 14:28:00",
+      "transaction_amount": 26228.0,
+      "transaction_details": "Salary deposit",
+      "transaction_id": 4086
+    },
+    {
+      "bank_balance_pre": 69635.02,
+      "transaction_time": "2024-01-07 21:03:00",
+      "transaction_amount": -319.93,
+      "transaction_details": "Gym membership",
+      "transaction_id": 7579
+    },
+    {
+      "bank_balance_pre": 69315.09,
+      "transaction_time": "2024-09-27 18:18:00",
+      "transaction_amount": -363.39,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 6830
+    },
+    {
+      "bank_balance_pre": 68951.7,
+      "transaction_time": "2024-01-10 14:46:00",
+      "transaction_amount": -387.02,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3071
+    },
+    {
+      "bank_balance_pre": 68564.68,
+      "transaction_time": "2024-08-27 05:34:00",
+      "transaction_amount": -435.1,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 5422
+    },
+    {
+      "bank_balance_pre": 68129.58,
+      "transaction_time": "2024-11-19 12:18:00",
+      "transaction_amount": -476.54,
+      "transaction_details": "Dining out",
+      "transaction_id": 3277
+    },
+    {
+      "bank_balance_pre": 67653.04,
+      "transaction_time": "2024-12-06 23:00:00",
+      "transaction_amount": -218.09,
+      "transaction_details": "Clothing",
+      "transaction_id": 2977
+    },
+    {
+      "bank_balance_pre": 67434.95,
+      "transaction_time": "2024-01-12 04:20:00",
+      "transaction_amount": -370.67,
+      "transaction_details": "Clothing",
+      "transaction_id": 1140
+    },
+    {
+      "bank_balance_pre": 67064.28,
+      "transaction_time": "2024-02-18 01:27:00",
+      "transaction_amount": -356.29,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 5360
+    },
+    {
+      "bank_balance_pre": 66707.99,
+      "transaction_time": "2024-06-03 10:31:00",
+      "transaction_amount": -392.19,
+      "transaction_details": "Groceries",
+      "transaction_id": 7296
+    },
+    {
+      "bank_balance_pre": 66315.8,
+      "transaction_time": "2024-03-03 22:24:00",
+      "transaction_amount": -69.28,
+      "transaction_details": "Utilities",
+      "transaction_id": 3367
+    },
+    {
+      "bank_balance_pre": 66246.52,
+      "transaction_time": "2024-07-27 20:09:00",
+      "transaction_amount": -258.76,
+      "transaction_details": "Gym membership",
+      "transaction_id": 8921
+    },
+    {
+      "bank_balance_pre": 65987.76,
+      "transaction_time": "2024-04-29 12:40:00",
+      "transaction_amount": -312.15,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 8435
+    },
+    {
+      "bank_balance_pre": 65675.61,
+      "transaction_time": "2024-07-11 03:40:00",
+      "transaction_amount": -105.18,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 3043
+    },
+    {
+      "bank_balance_pre": 65570.43,
+      "transaction_time": "2024-08-28 18:17:00",
+      "transaction_amount": -50.93,
+      "transaction_details": "Purchase of Product 9",
+      "transaction_id": 1447
+    },
+    {
+      "bank_balance_pre": 65519.5,
+      "transaction_time": "2024-11-06 02:46:00",
+      "transaction_amount": -157.93,
+      "transaction_details": "Clothing",
+      "transaction_id": 6687
+    },
+    {
+      "bank_balance_pre": 65361.57,
+      "transaction_time": "2024-11-11 22:27:00",
+      "transaction_amount": -438.45,
+      "transaction_details": "Utilities",
+      "transaction_id": 7552
+    },
+    {
+      "bank_balance_pre": 64923.12,
+      "transaction_time": "2024-06-07 15:37:00",
+      "transaction_amount": -466.38,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3933
+    },
+    {
+      "bank_balance_pre": 64456.74,
+      "transaction_time": "2024-03-17 04:43:00",
+      "transaction_amount": -262.94,
+      "transaction_details": "Rent payment",
+      "transaction_id": 6572
+    },
+    {
+      "bank_balance_pre": 64193.8,
+      "transaction_time": "2024-03-12 22:09:00",
+      "transaction_amount": -206.48,
+      "transaction_details": "Clothing",
+      "transaction_id": 3230
+    },
+    {
+      "bank_balance_pre": 63987.32,
+      "transaction_time": "2024-08-16 07:42:00",
+      "transaction_amount": -447.89,
+      "transaction_details": "Gym membership",
+      "transaction_id": 6248
+    },
+    {
+      "bank_balance_pre": 63539.43,
+      "transaction_time": "2024-03-23 20:06:00",
+      "transaction_amount": -116.71,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 5780
+    },
+    {
+      "bank_balance_pre": 63422.72,
+      "transaction_time": "2024-10-25 23:02:00",
+      "transaction_amount": -75.42,
+      "transaction_details": "Groceries",
+      "transaction_id": 2010
+    },
+    {
+      "bank_balance_pre": 63347.3,
+      "transaction_time": "2024-11-19 08:50:00",
+      "transaction_amount": -135.62,
+      "transaction_details": "Dining out",
+      "transaction_id": 4632
+    },
+    {
+      "bank_balance_pre": 63211.68,
+      "transaction_time": "2024-02-26 04:13:00",
+      "transaction_amount": -294.69,
+      "transaction_details": "Dining out",
+      "transaction_id": 3851
+    },
+    {
+      "bank_balance_pre": 62916.99,
+      "transaction_time": "2024-07-08 08:57:00",
+      "transaction_amount": -386.31,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4547
+    },
+    {
+      "bank_balance_pre": 62530.68,
+      "transaction_time": "2024-09-23 20:53:00",
+      "transaction_amount": -74.65,
+      "transaction_details": "Clothing",
+      "transaction_id": 5412
+    },
+    {
+      "bank_balance_pre": 62456.03,
+      "transaction_time": "2024-03-25 20:46:00",
+      "transaction_amount": -237.1,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 9491
+    },
+    {
+      "bank_balance_pre": 62218.93,
+      "transaction_time": "2024-11-30 05:42:00",
+      "transaction_amount": -151.85,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 6073
+    },
+    {
+      "bank_balance_pre": 62067.08,
+      "transaction_time": "2024-01-10 23:55:00",
+      "transaction_amount": -380.63,
+      "transaction_details": "Groceries",
+      "transaction_id": 9012
+    },
+    {
+      "bank_balance_pre": 61686.45,
+      "transaction_time": "2024-12-28 17:14:00",
+      "transaction_amount": -242.54,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 5713
+    },
+    {
+      "bank_balance_pre": 61443.91,
+      "transaction_time": "2024-04-25 12:41:00",
+      "transaction_amount": -349.61,
+      "transaction_details": "Dining out",
+      "transaction_id": 9848
+    },
+    {
+      "bank_balance_pre": 61094.3,
+      "transaction_time": "2024-10-03 08:03:00",
+      "transaction_amount": -187.9,
+      "transaction_details": "Dining out",
+      "transaction_id": 5874
+    },
+    {
+      "bank_balance_pre": 60906.4,
+      "transaction_time": "2024-12-10 08:59:00",
+      "transaction_amount": -431.79,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 6627
+    },
+    {
+      "bank_balance_pre": 60474.61,
+      "transaction_time": "2024-07-13 13:12:00",
+      "transaction_amount": -460.23,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 6554
+    },
+    {
+      "bank_balance_pre": 60014.38,
+      "transaction_time": "2024-08-17 02:47:00",
+      "transaction_amount": -298.26,
+      "transaction_details": "Dining out",
+      "transaction_id": 5387
+    },
+    {
+      "bank_balance_pre": 59716.12,
+      "transaction_time": "2024-02-01 08:57:00",
+      "transaction_amount": -280.5,
+      "transaction_details": "Gym membership",
+      "transaction_id": 9134
+    },
+    {
+      "bank_balance_pre": 59435.62,
+      "transaction_time": "2024-01-11 03:19:00",
+      "transaction_amount": -102.62,
+      "transaction_details": "Clothing",
+      "transaction_id": 7063
+    },
+    {
+      "bank_balance_pre": 59333.0,
+      "transaction_time": "2024-06-04 15:27:00",
+      "transaction_amount": -444.62,
+      "transaction_details": "Gym membership",
+      "transaction_id": 5887
+    },
+    {
+      "bank_balance_pre": 58888.38,
+      "transaction_time": "2024-05-20 15:52:00",
+      "transaction_amount": -55.87,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 6027
+    },
+    {
+      "bank_balance_pre": 58832.51,
+      "transaction_time": "2024-09-24 05:42:00",
+      "transaction_amount": -371.89,
+      "transaction_details": "Utilities",
+      "transaction_id": 3836
+    },
+    {
+      "bank_balance_pre": 58460.62,
+      "transaction_time": "2024-01-10 07:16:00",
+      "transaction_amount": -371.9,
+      "transaction_details": "Clothing",
+      "transaction_id": 3494
+    },
+    {
+      "bank_balance_pre": 58088.72,
+      "transaction_time": "2024-01-06 02:03:00",
+      "transaction_amount": -372.71,
+      "transaction_details": "Groceries",
+      "transaction_id": 3829
+    },
+    {
+      "bank_balance_pre": 57716.01,
+      "transaction_time": "2024-02-17 10:53:00",
+      "transaction_amount": -129.73,
+      "transaction_details": "Clothing",
+      "transaction_id": 4503
+    },
+    {
+      "bank_balance_pre": 57586.28,
+      "transaction_time": "2024-11-01 06:22:00",
+      "transaction_amount": -84.65,
+      "transaction_details": "Clothing",
+      "transaction_id": 6895
+    },
+    {
+      "bank_balance_pre": 57501.63,
+      "transaction_time": "2024-07-10 14:07:00",
+      "transaction_amount": -466.08,
+      "transaction_details": "Rent payment",
+      "transaction_id": 2024
+    },
+    {
+      "bank_balance_pre": 57035.55,
+      "transaction_time": "2024-12-01 01:03:00",
+      "transaction_amount": -45.29,
+      "transaction_details": "Utilities",
+      "transaction_id": 2621
+    },
+    {
+      "bank_balance_pre": 56990.26,
+      "transaction_time": "2024-11-13 21:47:00",
+      "transaction_amount": -47.65,
+      "transaction_details": "Gym membership",
+      "transaction_id": 2598
+    },
+    {
+      "bank_balance_pre": 56942.61,
+      "transaction_time": "2024-10-12 01:15:00",
+      "transaction_amount": -347.65,
+      "transaction_details": "Rent payment",
+      "transaction_id": 5806
+    },
+    {
+      "bank_balance_pre": 56594.96,
+      "transaction_time": "2024-12-14 08:24:00",
+      "transaction_amount": -457.56,
+      "transaction_details": "Groceries",
+      "transaction_id": 6881
+    },
+    {
+      "bank_balance_pre": 56137.4,
+      "transaction_time": "2024-01-18 13:29:00",
+      "transaction_amount": 3000.0,
+      "transaction_details": "Bonus",
+      "transaction_id": 6875
+    },
+    {
+      "bank_balance_pre": 59137.4,
+      "transaction_time": "2024-10-25 19:42:00",
+      "transaction_amount": -219.73,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 6866
+    },
+    {
+      "bank_balance_pre": 58917.67,
+      "transaction_time": "2024-08-01 05:40:00",
+      "transaction_amount": -152.08,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 4453
+    },
+    {
+      "bank_balance_pre": 58765.59,
+      "transaction_time": "2024-01-02 17:47:00",
+      "transaction_amount": -451.89,
+      "transaction_details": "Clothing",
+      "transaction_id": 7254
+    },
+    {
+      "bank_balance_pre": 58313.7,
+      "transaction_time": "2024-01-11 00:19:00",
+      "transaction_amount": -496.08,
+      "transaction_details": "Rent payment",
+      "transaction_id": 6377
+    },
+    {
+      "bank_balance_pre": 57817.62,
+      "transaction_time": "2024-11-04 12:17:00",
+      "transaction_amount": -126.49,
+      "transaction_details": "Dining out",
+      "transaction_id": 9392
+    },
+    {
+      "bank_balance_pre": 57691.13,
+      "transaction_time": "2024-09-16 21:50:00",
+      "transaction_amount": -117.06,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 1027
+    },
+    {
+      "bank_balance_pre": 57574.07,
+      "transaction_time": "2024-10-20 10:22:00",
+      "transaction_amount": -331.83,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3419
+    },
+    {
+      "bank_balance_pre": 57242.24,
+      "transaction_time": "2024-02-25 16:43:00",
+      "transaction_amount": -461.5,
+      "transaction_details": "Utilities",
+      "transaction_id": 1849
+    },
+    {
+      "bank_balance_pre": 56780.74,
+      "transaction_time": "2024-07-20 12:44:00",
+      "transaction_amount": -20.94,
+      "transaction_details": "Purchase of Product 3",
+      "transaction_id": 3026
+    },
+    {
+      "bank_balance_pre": 56759.8,
+      "transaction_time": "2024-08-12 03:57:00",
+      "transaction_amount": -317.06,
+      "transaction_details": "Clothing",
+      "transaction_id": 4189
+    },
+    {
+      "bank_balance_pre": 56442.74,
+      "transaction_time": "2024-07-05 11:52:00",
+      "transaction_amount": -324.36,
+      "transaction_details": "Dining out",
+      "transaction_id": 4746
+    },
+    {
+      "bank_balance_pre": 56118.38,
+      "transaction_time": "2024-05-25 16:32:00",
+      "transaction_amount": -307.52,
+      "transaction_details": "Rent payment",
+      "transaction_id": 5962
+    },
+    {
+      "bank_balance_pre": 55810.86,
+      "transaction_time": "2024-05-02 13:04:00",
+      "transaction_amount": -370.3,
+      "transaction_details": "Groceries",
+      "transaction_id": 7755
+    },
+    {
+      "bank_balance_pre": 55440.56,
+      "transaction_time": "2024-03-10 15:30:00",
+      "transaction_amount": -32.1,
+      "transaction_details": "Rent payment",
+      "transaction_id": 1822
+    },
+    {
+      "bank_balance_pre": 55408.46,
+      "transaction_time": "2024-09-19 09:45:00",
+      "transaction_amount": -291.1,
+      "transaction_details": "Utilities",
+      "transaction_id": 6850
+    },
+    {
+      "bank_balance_pre": 55117.36,
+      "transaction_time": "2024-04-28 00:12:00",
+      "transaction_amount": -101.37,
+      "transaction_details": "Gym membership",
+      "transaction_id": 7136
+    },
+    {
+      "bank_balance_pre": 55015.99,
+      "transaction_time": "2024-04-16 23:29:00",
+      "transaction_amount": -74.51,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3846
+    },
+    {
+      "bank_balance_pre": 54941.48,
+      "transaction_time": "2024-10-04 08:18:00",
+      "transaction_amount": -348.56,
+      "transaction_details": "Dining out",
+      "transaction_id": 7936
+    },
+    {
+      "bank_balance_pre": 54592.92,
+      "transaction_time": "2024-02-03 15:01:00",
+      "transaction_amount": -161.79,
+      "transaction_details": "Dining out",
+      "transaction_id": 7113
+    },
+    {
+      "bank_balance_pre": 54431.13,
+      "transaction_time": "2024-05-25 08:57:00",
+      "transaction_amount": -49.23,
+      "transaction_details": "Groceries",
+      "transaction_id": 5731
+    },
+    {
+      "bank_balance_pre": 54381.9,
+      "transaction_time": "2024-04-07 11:26:00",
+      "transaction_amount": -238.42,
+      "transaction_details": "Clothing",
+      "transaction_id": 5025
+    },
+    {
+      "bank_balance_pre": 54143.48,
+      "transaction_time": "2024-07-05 19:20:00",
+      "transaction_amount": -430.77,
+      "transaction_details": "Dining out",
+      "transaction_id": 4069
+    },
+    {
+      "bank_balance_pre": 53712.71,
+      "transaction_time": "2024-12-11 07:24:00",
+      "transaction_amount": -233.14,
+      "transaction_details": "Groceries",
+      "transaction_id": 3160
+    },
+    {
+      "bank_balance_pre": 53479.57,
+      "transaction_time": "2024-07-06 10:05:00",
+      "transaction_amount": -71.71,
+      "transaction_details": "Dining out",
+      "transaction_id": 3387
+    },
+    {
+      "bank_balance_pre": 53407.86,
+      "transaction_time": "2024-02-13 04:22:00",
+      "transaction_amount": -242.4,
+      "transaction_details": "Purchase of Product 3",
+      "transaction_id": 4808
+    },
+    {
+      "bank_balance_pre": 53165.46,
+      "transaction_time": "2024-03-15 23:22:00",
+      "transaction_amount": -409.07,
+      "transaction_details": "Groceries",
+      "transaction_id": 9127
+    },
+    {
+      "bank_balance_pre": 52756.39,
+      "transaction_time": "2024-07-03 20:08:00",
+      "transaction_amount": -414.2,
+      "transaction_details": "Gym membership",
+      "transaction_id": 9057
+    },
+    {
+      "bank_balance_pre": 52342.19,
+      "transaction_time": "2024-05-04 00:12:00",
+      "transaction_amount": -297.09,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 5044
+    },
+    {
+      "bank_balance_pre": 52045.1,
+      "transaction_time": "2024-02-09 01:45:00",
+      "transaction_amount": -378.39,
+      "transaction_details": "Rent payment",
+      "transaction_id": 4941
+    },
+    {
+      "bank_balance_pre": 51666.71,
+      "transaction_time": "2024-09-01 06:02:00",
+      "transaction_amount": -126.66,
+      "transaction_details": "Utilities",
+      "transaction_id": 3552
+    },
+    {
+      "bank_balance_pre": 51540.05,
+      "transaction_time": "2024-07-04 06:35:00",
+      "transaction_amount": -150.43,
+      "transaction_details": "Purchase of Product 4",
+      "transaction_id": 1305
+    },
+    {
+      "bank_balance_pre": 51389.62,
+      "transaction_time": "2024-07-14 10:07:00",
+      "transaction_amount": -274.97,
+      "transaction_details": "Clothing",
+      "transaction_id": 2666
+    },
+    {
+      "bank_balance_pre": 51114.65,
+      "transaction_time": "2024-08-17 19:23:00",
+      "transaction_amount": -171.5,
+      "transaction_details": "Dining out",
+      "transaction_id": 8697
+    },
+    {
+      "bank_balance_pre": 50943.15,
+      "transaction_time": "2024-12-12 02:56:00",
+      "transaction_amount": -217.12,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 3996
+    },
+    {
+      "bank_balance_pre": 50726.03,
+      "transaction_time": "2024-07-17 02:48:00",
+      "transaction_amount": -358.09,
+      "transaction_details": "Dining out",
+      "transaction_id": 3040
+    },
+    {
+      "bank_balance_pre": 50367.94,
+      "transaction_time": "2024-06-05 14:50:00",
+      "transaction_amount": -274.62,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 1279
+    },
+    {
+      "bank_balance_pre": 50093.32,
+      "transaction_time": "2024-10-10 13:56:00",
+      "transaction_amount": -112.0,
+      "transaction_details": "Groceries",
+      "transaction_id": 3188
+    },
+    {
+      "bank_balance_pre": 49981.32,
+      "transaction_time": "2024-02-29 23:44:00",
+      "transaction_amount": -31.5,
+      "transaction_details": "Gym membership",
+      "transaction_id": 3353
+    },
+    {
+      "bank_balance_pre": 49949.82,
+      "transaction_time": "2024-03-07 09:24:00",
+      "transaction_amount": -344.04,
+      "transaction_details": "Clothing",
+      "transaction_id": 3872
+    },
+    {
+      "bank_balance_pre": 49605.78,
+      "transaction_time": "2024-06-09 22:02:00",
+      "transaction_amount": -54.42,
+      "transaction_details": "Purchase of Product 1",
+      "transaction_id": 2232
+    },
+    {
+      "bank_balance_pre": 49551.36,
+      "transaction_time": "2024-06-11 18:51:00",
+      "transaction_amount": -360.89,
+      "transaction_details": "Rent payment",
+      "transaction_id": 4322
+    },
+    {
+      "bank_balance_pre": 49190.47,
+      "transaction_time": "2024-06-19 22:34:00",
+      "transaction_amount": -444.36,
+      "transaction_details": "Clothing",
+      "transaction_id": 4972
+    },
+    {
+      "bank_balance_pre": 48746.11,
+      "transaction_time": "2024-05-02 06:23:00",
+      "transaction_amount": -106.68,
+      "transaction_details": "Gym membership",
+      "transaction_id": 1832
+    },
+    {
+      "bank_balance_pre": 48639.43,
+      "transaction_time": "2024-02-07 08:20:00",
+      "transaction_amount": -136.21,
+      "transaction_details": "Groceries",
+      "transaction_id": 9258
+    },
+    {
+      "bank_balance_pre": 48503.22,
+      "transaction_time": "2024-12-19 08:31:00",
+      "transaction_amount": -277.92,
+      "transaction_details": "Clothing",
+      "transaction_id": 4846
+    },
+    {
+      "bank_balance_pre": 48225.3,
+      "transaction_time": "2024-11-20 14:38:00",
+      "transaction_amount": -481.34,
+      "transaction_details": "Clothing",
+      "transaction_id": 7439
+    },
+    {
+      "bank_balance_pre": 47743.96,
+      "transaction_time": "2024-07-05 22:15:00",
+      "transaction_amount": -89.13,
+      "transaction_details": "Gym membership",
+      "transaction_id": 4851
+    },
+    {
+      "bank_balance_pre": 47654.83,
+      "transaction_time": "2024-01-13 01:30:00",
+      "transaction_amount": -155.36,
+      "transaction_details": "Gym membership",
+      "transaction_id": 7372
+    },
+    {
+      "bank_balance_pre": 47499.47,
+      "transaction_time": "2024-06-23 23:32:00",
+      "transaction_amount": -287.98,
+      "transaction_details": "Utilities",
+      "transaction_id": 5611
+    },
+    {
+      "bank_balance_pre": 47211.49,
+      "transaction_time": "2024-09-22 22:32:00",
+      "transaction_amount": 26228.0,
+      "transaction_details": "Salary deposit",
+      "transaction_id": 4137
+    },
+    {
+      "bank_balance_pre": 73439.49,
+      "transaction_time": "2024-09-05 12:00:00",
+      "transaction_amount": -182.22,
+      "transaction_details": "Purchase of Product 9",
+      "transaction_id": 1496
+    },
+    {
+      "bank_balance_pre": 73257.27,
+      "transaction_time": "2024-12-24 17:03:00",
+      "transaction_amount": -141.41,
+      "transaction_details": "Rent payment",
+      "transaction_id": 6930
+    },
+    {
+      "bank_balance_pre": 73115.86,
+      "transaction_time": "2024-06-23 04:47:00",
+      "transaction_amount": -182.97,
+      "transaction_details": "Groceries",
+      "transaction_id": 8390
+    },
+    {
+      "bank_balance_pre": 72932.89,
+      "transaction_time": "2024-12-08 18:11:00",
+      "transaction_amount": -339.77,
+      "transaction_details": "Purchase of Product 6",
+      "transaction_id": 1544
+    },
+    {
+      "bank_balance_pre": 72593.12,
+      "transaction_time": "2024-08-29 12:32:00",
+      "transaction_amount": -124.07,
+      "transaction_details": "Utilities",
+      "transaction_id": 6208
+    },
+    {
+      "bank_balance_pre": 72469.05,
+      "transaction_time": "2024-04-25 03:34:00",
+      "transaction_amount": -49.08,
+      "transaction_details": "Dining out",
+      "transaction_id": 8820
+    },
+    {
+      "bank_balance_pre": 72419.97,
+      "transaction_time": "2024-09-24 04:41:00",
+      "transaction_amount": -360.55,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 1161
+    },
+    {
+      "bank_balance_pre": 72059.42,
+      "transaction_time": "2024-12-24 08:36:00",
+      "transaction_amount": -198.01,
+      "transaction_details": "Gym membership",
+      "transaction_id": 8051
+    },
+    {
+      "bank_balance_pre": 71861.41,
+      "transaction_time": "2024-10-24 00:33:00",
+      "transaction_amount": -499.39,
+      "transaction_details": "Rent payment",
+      "transaction_id": 2747
+    },
+    {
+      "bank_balance_pre": 71362.02,
+      "transaction_time": "2024-09-30 00:58:00",
+      "transaction_amount": -303.92,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 2553
+    },
+    {
+      "bank_balance_pre": 71058.1,
+      "transaction_time": "2024-05-25 17:29:00",
+      "transaction_amount": -198.48,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 1151
+    },
+    {
+      "bank_balance_pre": 70859.62,
+      "transaction_time": "2024-06-17 06:43:00",
+      "transaction_amount": -80.02,
+      "transaction_details": "Utilities",
+      "transaction_id": 4538
+    },
+    {
+      "bank_balance_pre": 70779.6,
+      "transaction_time": "2024-01-09 10:33:00",
+      "transaction_amount": -143.79,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 3861
+    },
+    {
+      "bank_balance_pre": 70635.81,
+      "transaction_time": "2024-11-15 20:13:00",
+      "transaction_amount": -451.72,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 4178
+    },
+    {
+      "bank_balance_pre": 70184.09,
+      "transaction_time": "2024-05-07 00:37:00",
+      "transaction_amount": -389.55,
+      "transaction_details": "Clothing",
+      "transaction_id": 2463
+    },
+    {
+      "bank_balance_pre": 69794.54,
+      "transaction_time": "2024-01-25 23:47:00",
+      "transaction_amount": -493.5,
+      "transaction_details": "Utilities",
+      "transaction_id": 1599
+    },
+    {
+      "bank_balance_pre": 69301.04,
+      "transaction_time": "2024-03-13 04:45:00",
+      "transaction_amount": -428.88,
+      "transaction_details": "Groceries",
+      "transaction_id": 9708
+    },
+    {
+      "bank_balance_pre": 68872.16,
+      "transaction_time": "2024-07-22 22:07:00",
+      "transaction_amount": -439.89,
+      "transaction_details": "Utilities",
+      "transaction_id": 6137
+    },
+    {
+      "bank_balance_pre": 68432.27,
+      "transaction_time": "2024-12-23 03:46:00",
+      "transaction_amount": -297.9,
+      "transaction_details": "Utilities",
+      "transaction_id": 7111
+    },
+    {
+      "bank_balance_pre": 68134.37,
+      "transaction_time": "2024-01-21 06:34:00",
+      "transaction_amount": -448.17,
+      "transaction_details": "Purchase of Product 3",
+      "transaction_id": 6963
+    },
+    {
+      "bank_balance_pre": 67686.2,
+      "transaction_time": "2024-01-18 00:59:00",
+      "transaction_amount": -495.13,
+      "transaction_details": "Gym membership",
+      "transaction_id": 1540
+    },
+    {
+      "bank_balance_pre": 67191.07,
+      "transaction_time": "2024-09-20 12:10:00",
+      "transaction_amount": -319.71,
+      "transaction_details": "Purchase of Product 6",
+      "transaction_id": 3467
+    },
+    {
+      "bank_balance_pre": 66871.36,
+      "transaction_time": "2024-04-20 08:35:00",
+      "transaction_amount": -351.54,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3718
+    },
+    {
+      "bank_balance_pre": 66519.82,
+      "transaction_time": "2024-11-16 05:34:00",
+      "transaction_amount": -114.35,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 9570
+    },
+    {
+      "bank_balance_pre": 66405.47,
+      "transaction_time": "2024-08-16 01:40:00",
+      "transaction_amount": -245.32,
+      "transaction_details": "Groceries",
+      "transaction_id": 7643
+    },
+    {
+      "bank_balance_pre": 66160.15,
+      "transaction_time": "2024-02-04 12:21:00",
+      "transaction_amount": -256.63,
+      "transaction_details": "Purchase of Product 5",
+      "transaction_id": 8116
+    },
+    {
+      "bank_balance_pre": 65903.52,
+      "transaction_time": "2024-06-18 17:04:00",
+      "transaction_amount": -141.02,
+      "transaction_details": "Clothing",
+      "transaction_id": 6231
+    },
+    {
+      "bank_balance_pre": 65762.5,
+      "transaction_time": "2024-10-18 18:50:00",
+      "transaction_amount": -377.34,
+      "transaction_details": "Utilities",
+      "transaction_id": 6074
+    },
+    {
+      "bank_balance_pre": 65385.16,
+      "transaction_time": "2024-03-20 22:29:00",
+      "transaction_amount": -60.18,
+      "transaction_details": "Dining out",
+      "transaction_id": 2704
+    },
+    {
+      "bank_balance_pre": 65324.98,
+      "transaction_time": "2024-04-10 04:23:00",
+      "transaction_amount": -201.18,
+      "transaction_details": "Rent payment",
+      "transaction_id": 7955
+    },
+    {
+      "bank_balance_pre": 65123.8,
+      "transaction_time": "2024-10-30 01:32:00",
+      "transaction_amount": -212.31,
+      "transaction_details": "Gym membership",
+      "transaction_id": 2036
+    },
+    {
+      "bank_balance_pre": 64911.49,
+      "transaction_time": "2024-10-07 02:48:00",
+      "transaction_amount": -74.5,
+      "transaction_details": "Dining out",
+      "transaction_id": 8838
+    },
+    {
+      "bank_balance_pre": 64836.99,
+      "transaction_time": "2024-06-25 11:00:00",
+      "transaction_amount": -330.7,
+      "transaction_details": "Dining out",
+      "transaction_id": 9073
+    },
+    {
+      "bank_balance_pre": 64506.29,
+      "transaction_time": "2024-05-09 01:55:00",
+      "transaction_amount": -203.5,
+      "transaction_details": "Groceries",
+      "transaction_id": 1403
+    },
+    {
+      "bank_balance_pre": 64302.79,
+      "transaction_time": "2024-12-21 15:14:00",
+      "transaction_amount": -88.66,
+      "transaction_details": "Rent payment",
+      "transaction_id": 4065
+    },
+    {
+      "bank_balance_pre": 64214.13,
+      "transaction_time": "2024-02-11 03:46:00",
+      "transaction_amount": -68.0,
+      "transaction_details": "Rent payment",
+      "transaction_id": 3891
+    },
+    {
+      "bank_balance_pre": 64146.13,
+      "transaction_time": "2024-05-14 14:22:00",
+      "transaction_amount": -329.46,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 1974
+    },
+    {
+      "bank_balance_pre": 63816.67,
+      "transaction_time": "2024-10-03 13:47:00",
+      "transaction_amount": -85.76,
+      "transaction_details": "Rent payment",
+      "transaction_id": 2440
+    },
+    {
+      "bank_balance_pre": 63730.91,
+      "transaction_time": "2024-03-26 10:22:00",
+      "transaction_amount": -98.12,
+      "transaction_details": "Dining out",
+      "transaction_id": 3257
+    },
+    {
+      "bank_balance_pre": 63632.79,
+      "transaction_time": "2024-11-13 10:07:00",
+      "transaction_amount": -399.95,
+      "transaction_details": "Rent payment",
+      "transaction_id": 4655
+    },
+    {
+      "bank_balance_pre": 63232.84,
+      "transaction_time": "2024-01-29 22:32:00",
+      "transaction_amount": -380.85,
+      "transaction_details": "Purchase of Product 1",
+      "transaction_id": 4435
+    },
+    {
+      "bank_balance_pre": 62851.99,
+      "transaction_time": "2024-11-10 17:11:00",
+      "transaction_amount": -38.14,
+      "transaction_details": "Gym membership",
+      "transaction_id": 6668
+    },
+    {
+      "bank_balance_pre": 62813.85,
+      "transaction_time": "2024-01-07 22:08:00",
+      "transaction_amount": -175.64,
+      "transaction_details": "Clothing",
+      "transaction_id": 7847
+    },
+    {
+      "bank_balance_pre": 62638.21,
+      "transaction_time": "2024-09-25 17:50:00",
+      "transaction_amount": -206.31,
+      "transaction_details": "Clothing",
+      "transaction_id": 8445
+    },
+    {
+      "bank_balance_pre": 62431.9,
+      "transaction_time": "2024-11-11 00:39:00",
+      "transaction_amount": -272.86,
+      "transaction_details": "Monthly insurance payment",
+      "transaction_id": 2973
+    },
+    {
+      "bank_balance_pre": 62159.04,
+      "transaction_time": "2024-09-11 15:38:00",
+      "transaction_amount": -300.66,
+      "transaction_details": "Utilities",
+      "transaction_id": 2388
+    },
+    {
+      "bank_balance_pre": 61858.38,
+      "transaction_time": "2024-08-08 10:33:00",
+      "transaction_amount": -463.84,
+      "transaction_details": "Purchase of Product 8",
+      "transaction_id": 7515
+    },
+    {
+      "bank_balance_pre": 61394.54,
+      "transaction_time": "2024-07-25 17:18:00",
+      "transaction_amount": -68.0,
+      "transaction_details": "Groceries",
+      "transaction_id": 1846
+    },
+    {
+      "bank_balance_pre": 61326.54,
+      "transaction_time": "2024-03-08 03:36:00",
+      "transaction_amount": -56.17,
+      "transaction_details": "Internet Bill",
+      "transaction_id": 2639
+    },
+    {
+      "bank_balance_pre": 61270.37,
+      "transaction_time": "2024-04-18 15:56:00",
+      "transaction_amount": 3000.0,
+      "transaction_details": "Bonus",
+      "transaction_id": 2337
+    }
+  ]
+}
