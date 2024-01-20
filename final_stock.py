@@ -68,7 +68,6 @@ def stockPredict(ticker2):
     plt.show()
 
 
-
 def newsPredict(ticker_i):
     import newsapi
     import yfinance as yf
@@ -202,13 +201,33 @@ def newsPredict(ticker_i):
 
     true_pred = model.predict(two_d_array)
 
-    returnable_array = [headline_v2, true_pred, ]
     return true_pred
 
-predicted = newsPredict(ticker_i=lame_i)
-print(predicted)
+##
+
+def get_latest_news_v2or3idk(ticker_input):
+    import newsapi
+    api_key = 'fcecf50fcd844427b98a50db33f5ed42'
+    newsapi.NewsApiClient(api_key)
+    news_api = newsapi.NewsApiClient(api_key)
+    query_v3 = ticker_input
+    language_v3 = 'en'
+    sort_by_v3 = 'publishedAt'
+    page_size_v3 = 10
+
+    # Get the latest news articles related to the ticker
+    articles_v3 = news_api.get_everything(q=query_v3, language=language_v3, sort_by=sort_by_v3, page_size=page_size_v3)
+
+    # Extract the first article and return it as a Pandas Series
+    article_v3 = articles_v3['articles'][0]
+    return article_v3['title']
+
+headline_v3 = (get_latest_news_v2or3idk(ticker_input=lame_i))
+
+predicted = (newsPredict(ticker_i=lame_i))[0][0]
+if predicted>0:
+    print(Fore.GREEN + headline_v3)
+elif predicted<0:
+    print(Fore.RED + headline_v3)
 
 stockPredict(ticker2=lame_i)
-
-
-
