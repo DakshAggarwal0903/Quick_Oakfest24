@@ -48,7 +48,7 @@ def stockPredict(ticker2):
 
     # Evaluate the model
     score = model.score(X_test, y_test)
-    print(f'R-squared score on test data: {score}')
+    ##print(f'R-squared score on test data: {score}')
 
     # Make predictions on the test data
     y_pred = model.predict(X_test)
@@ -195,7 +195,7 @@ def newsPredict(ticker_i):
     y_pred = model.predict(X_test)
 
     r2 = r2_score(y_test, y_pred)
-    print("R-squared value: {:.2f}".format(r2))
+    ##print("R-squared value: {:.2f}".format(r2))
     
     two_d_array = np.array([[sentiment_score_v2]])
 
@@ -226,8 +226,11 @@ headline_v3 = (get_latest_news_v2or3idk(ticker_input=lame_i))
 
 predicted = (newsPredict(ticker_i=lame_i))[0][0]
 if predicted>0:
-    print(Fore.GREEN + headline_v3)
+    print(Fore.GREEN + headline_v3 + ' POS')
+    print(Fore.WHITE)
 elif predicted<0:
-    print(Fore.RED + headline_v3)
+    print(Fore.RED + headline_v3+ ' NEG')
+    print(Fore.WHITE)
 
 stockPredict(ticker2=lame_i)
+
