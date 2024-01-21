@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Education</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            background: linear-gradient(135deg, #4b0082, #000000);
+        }
+
+        header {
+            background: linear-gradient(135deg, #800080, #000000);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .ribbon {
+            background: #800080;
+            color: #fff;
+            padding: 10px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            font-size: 16px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .ribbon button {
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: background 0.3s ease;
+        }
+
+        .ribbon button:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh; /* Adjusted height for better visibility */
+            color: #fff;
+        }
+
+        .content {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .login-button {
+            background: linear-gradient(135deg, #800080, #4b0082);
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .login-button:hover {
+            background: linear-gradient(135deg, #4b0082, #800080);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1>QuickFinance</h1>
+            <h2>Welcome to our QuickFinance's Home Page</h2>
+            <p>Explore resources for financial education, manage your budget, and receive financial alerts.</p>
+        </div>
+        <button class="login-button" onclick="navigateTo('login')">Login</button>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            // You can implement navigation logic here based on the button clicked
+            console.log(`Navigating to ${page}`);
+        }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Education</title>
+    <style>
+        /* Your existing styles remain unchanged */
+    </style>
+</head>
+
+<body>
+    <header>
+        
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1>QuickFinance</h1>
+            <h2>Welcome to our QuickFinance's Home Page</h2>
+            <p>Explore resources for financial education, manage your budget, and receive financial alerts.</p>
+        </div>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            // Updated navigation logic
+            if (page === 'login') {
+                window.location.href = 'main code.html';
+            } else {
+                console.log(`Navigating to ${page}`);
+                // Implement navigation logic for other pages if needed
+            }
+        }
+    </script>
+</body>
+
+</html>
+
