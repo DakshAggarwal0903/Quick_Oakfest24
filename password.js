@@ -6,7 +6,7 @@ function redirectToMainPage() {
     const password = 'pass'
     // Example: Redirect to the main page if username and password are not empty
     if (username_prompt == username && password_prompt == password) {
-      window.location.href = 'fined.html';
+      window.location.href = 'mainpage.html';
     } else {
       alert('Please enter valid credentials.');
     }
